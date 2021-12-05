@@ -1,0 +1,113 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library xp2;
+use xp2.components.all;
+
+	-- Add your library and packages declaration here ...
+
+entity schema1_tb is
+end schema1_tb;
+
+architecture TB_ARCHITECTURE of schema1_tb is
+	-- Component declaration of the tested unit
+	component schema1
+	port(
+		a : in STD_LOGIC;
+		b : in STD_LOGIC;
+		c : in STD_LOGIC;
+		d : in STD_LOGIC;
+		e : in STD_LOGIC;
+		f : in STD_LOGIC;
+		jk : out STD_LOGIC );
+	end component;
+
+	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
+	signal a : STD_LOGIC;
+	signal b : STD_LOGIC;
+	signal c : STD_LOGIC;
+	signal d : STD_LOGIC;
+	signal e : STD_LOGIC;
+	signal f : STD_LOGIC;
+	-- Observed signals - signals mapped to the output ports of tested entity
+	signal jk : STD_LOGIC;
+
+	-- Add your code here ...
+
+begin
+
+	-- Unit Under Test port map
+	UUT : schema1
+		port map (
+			a => a,
+			b => b,
+			c => c,
+			d => d,
+			e => e,
+			f => f,
+			jk => jk
+		);
+
+	-- Add your stimulus here ...
+	process begin
+		a <= '0'; b <= '0'; c <= '0'; d <= '0'; e <= '0'; f <= '1';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '0'; d <= '0'; e <= '1'; f <= '0';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '0'; d <= '1'; e <= '0'; f <= '1';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '1'; d <= '0'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '1'; d <= '0'; e <= '1'; f <= '0';
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '1'; d <= '1'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '0'; d <= '0'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '0'; d <= '0'; e <= '1'; f <= '0';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '0'; d <= '0'; e <= '1'; f <= '1';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '0'; d <= '1'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '0'; d <= '1'; e <= '1'; f <= '0';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '1'; d <= '0'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '1'; d <= '0'; e <= '1'; f <= '0';
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '1'; d <= '1'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '1'; b <= '1'; c <= '0'; d <= '0'; e <= '1'; f <= '1';
+		wait for 10 ns ;
+		a <= '1'; b <= '1'; c <= '0'; d <= '1'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		a <= '1'; b <= '1'; c <= '1'; d <= '0'; e <= '1'; f <= '1';
+		wait for 10 ns ;
+		a <= '1'; b <= '1'; c <= '1'; d <= '1'; e <= '0'; f <= '1';
+		wait for 10 ns ;
+		
+		a <= '0'; b <= '0'; c <= '0'; d <= '0'; e <= '1'; f <= '1';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '0'; d <= '1'; e <= '1'; f <= '0';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '0'; d <= '1'; e <= '1'; f <= '1';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '1'; d <= '1'; e <= '1'; f <= '1';	
+		wait for 10 ns ;
+		a <= '0'; b <= '0'; c <= '1'; d <= '0'; e <= '1'; f <= '1';	
+		wait for 10 ns ;
+		a <= '0'; b <= '1'; c <= '1'; d <= '0'; e <= '1'; f <= '1';	
+		wait for 10 ns ;
+		wait;
+		end process;
+
+end TB_ARCHITECTURE;
+
+configuration TESTBENCH_FOR_schema1 of schema1_tb is
+	for TB_ARCHITECTURE
+		for UUT : schema1
+			use entity work.schema1(schematic);
+		end for;
+	end for;
+end TESTBENCH_FOR_schema1;
+

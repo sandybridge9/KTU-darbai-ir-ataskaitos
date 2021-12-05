@@ -1,0 +1,145 @@
+Pradiniai duomenys: 
+Rasytoju duomenys vienoje lenteleje: 
+--------+--------------------+--------+----+
+|El. Nr.|Vardas, Pavarde     |Gija    |Alga|
+
+--------+--------------------+--------+----+
+|1      |Antanas             |1       |1.2 |
+
+|2      |Antanas             |1       |1.2 |
+
+|3      |Antanas             |1       |1.2 |
+
+|4      |Antanas             |1       |1.2 |
+
+|5      |Cezaris             |1       |1.2 |
+
+|6      |Cezaris             |1       |1.2 |
+
+|7      |Cezaris             |1       |1.2 |
+
+|8      |Danas               |2       |1.2 |
+
+|9      |Danas               |2       |1.2 |
+
+|10     |Danas               |2       |1.2 |
+
+|11     |Danas               |2       |1.2 |
+
+|12     |Danas               |2       |1.2 |
+
+|13     |Danas               |2       |1.2 |
+
+|14     |Flopas              |2       |1.2 |
+
+|15     |Gilmas              |2       |1.2 |
+
+|16     |Gilmas              |2       |1.2 |
+
+|17     |Kanas               |2       |1.2 |
+
+|18     |Kanas               |2       |1.2 |
+
+|19     |Kanas               |2       |1.2 |
+
+|20     |Kanas               |2       |1.2 |
+
+|21     |Lagnieta            |1       |1.2 |
+
+|22     |Lagnieta            |1       |1.2 |
+
+|23     |Lagnieta            |1       |1.2 |
+
+|24     |Marbielius          |1       |1.2 |
+
+|25     |Marbielius          |1       |1.2 |
+
+|26     |Marbielius          |1       |1.2 |
+
+|27     |Oadgar              |2       |1.2 |
+
+|28     |Oadgar              |2       |1.2 |
+
+|29     |Oadgar              |2       |1.2 |
+
+|30     |Oadgar              |2       |1.2 |
+
+|31     |Oadgar              |2       |1.2 |
+
+|32     |Oadgar              |2       |1.2 |
+
+|33     |Ponas               |1       |1.2 |
+
+|34     |Ponas               |1       |1.2 |
+
+|35     |Ponas               |1       |1.2 |
+
+|36     |Ponas               |1       |1.2 |
+
+|37     |Rilmantas           |1       |1.2 |
+
+|38     |Rilmantas           |1       |1.2 |
+
+|39     |Rilmantas           |1       |1.2 |
+
+|40     |Rilmantas           |1       |1.2 |
+
+--------------------------------------------
+Skaitytoju duomenys vienoje lenteleje: 
+--------+--------------------+--------+
+|El. Nr.|Vardas, Pavarde     |Skaicius|
+
+--------+--------------------+--------+
+|1      |Antanas             |4       |
+
+|2      |Cezaris             |3       |
+
+|3      |Danas               |6       |
+
+|4      |Oadgar              |2       |
+
+|5      |Flopas              |1       |
+
+|6      |Gilmas              |2       |
+
+|7      |Kanas               |4       |
+
+|8      |Lagnieta            |3       |
+
+---------------------------------------
+Rezultatai: 
+--------+--------------------+--------+----+
+|El. Nr.|Vardas, Pavarde     |Gija    |Alga|
+
+--------+--------------------+--------+----+
+|1      |Marbielius          |1       |1.2 |
+
+|2      |Marbielius          |1       |1.2 |
+
+|3      |Marbielius          |1       |1.2 |
+
+|4      |Oadgar              |2       |1.2 |
+
+|5      |Oadgar              |2       |1.2 |
+
+|6      |Oadgar              |2       |1.2 |
+
+|7      |Oadgar              |2       |1.2 |
+
+|8      |Ponas               |1       |1.2 |
+
+|9      |Ponas               |1       |1.2 |
+
+|10     |Ponas               |1       |1.2 |
+
+|11     |Ponas               |1       |1.2 |
+
+|12     |Rilmantas           |1       |1.2 |
+
+|13     |Rilmantas           |1       |1.2 |
+
+|14     |Rilmantas           |1       |1.2 |
+
+|15     |Rilmantas           |1       |1.2 |
+
+-------------------------------------------

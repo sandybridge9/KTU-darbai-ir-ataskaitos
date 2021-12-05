@@ -1,0 +1,20 @@
+#!/bin/sh
+echo "Skaiciai mazesni uz pirmaji nari: "
+for v
+do
+	if test $1 -gt $v
+	then
+		echo $v
+	fi
+done
+echo "Skaiciai didesni arba lygus pirmajam nariui: "
+for v
+do 
+	if test $v -gt $1
+	then
+		echo $v
+	elif test $v -eq $1
+	then
+		echo $v
+	fi
+done

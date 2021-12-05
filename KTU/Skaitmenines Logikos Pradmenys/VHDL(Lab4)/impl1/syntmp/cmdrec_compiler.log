@@ -1,0 +1,8 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\impl1\synwork\impl1_comp.srs"  -hdllog  "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\impl1\synlog\impl1_compiler.srr"  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\impl1\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work D:\KTU\SkaitmenineLogika\VHDL(Lab4)\Skaitiklis.vhdl 
+rc:0 success:1 runtime:1
+file:D:\KTU\SkaitmenineLogika\VHDL(Lab4)\impl1\synwork\impl1_comp.srs|io:o|time:1495582929|size:2333|exec:0
+file:D:\KTU\SkaitmenineLogika\VHDL(Lab4)\impl1\synlog\impl1_compiler.srr|io:o|time:1495582929|size:2823|exec:0
+file:C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\xp2.vhd|io:i|time:1480944430|size:146261|exec:0
+file:D:\KTU\SkaitmenineLogika\VHDL(Lab4)\Skaitiklis.vhdl|io:i|time:1495581524|size:911|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1480980902|size:1338368|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1480981106|size:1754112|exec:1

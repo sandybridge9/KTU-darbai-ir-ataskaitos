@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:\KTU\SkaitmenineLogika\Trigeriai\StatinioTrigerioTestas\src\TestBench\statinistrigeris_TB.vhd" 
+MESSAGE "Compile Entity "statinistrigeris_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "statinistrigeris_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_statinistrigeris"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

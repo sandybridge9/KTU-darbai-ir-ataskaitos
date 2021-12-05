@@ -1,0 +1,5 @@
+﻿Giedraitis;Jonso-5;7;12;4C;1;
+Bliumas;Sieed-8;9;2;4C;2;
+Zomsinas;Zxcuko-13;8;1;4D;1;
+Nielsenas;Jkolno-415;12;5;4D;5;
+Leslis;Jonlolo-75;5;6;4D;7;

@@ -1,0 +1,48 @@
+[System]
+Name='fuzzylaboras'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Pajamu-lygis'
+Range=[0 3000]
+NumMFs=4
+MF1='mazas':'trimf',[0 0 700]
+MF2='vidutinis':'trimf',[550 750 1000]
+MF3='aukstas':'trimf',[900 1500 2400]
+MF4='labai-aukstas':'trapmf',[2200 2500 3000 3000]
+
+[Input2]
+Name='Paskolos-dydis'
+Range=[0 85000]
+NumMFs=4
+MF1='mazas':'trimf',[0 0 15000]
+MF2='vidutinis':'trimf',[10000 20000 30000]
+MF3='didelis':'trapmf',[25000 35000 50000 60000]
+MF4='labai-didelis':'trapmf',[55000 70000 90000 90000]
+
+[Input3]
+Name='Finansiniai-isipareigojimai'
+Range=[0 600]
+NumMFs=4
+MF1='mazas':'trimf',[0 0 120]
+MF2='vidutinis':'trimf',[80 165 250]
+MF3='aukstas':'trimf',[180 315 450]
+MF4='labai-aukstas':'trapmf',[400 500 600 600]
+
+[Output1]
+Name='Paskola'
+Range=[0 1]
+NumMFs=2
+MF1='Negaus':'trimf',[0 0 0.6]
+MF2='Gaus':'smf',[0.46 0.94]
+
+[Rules]

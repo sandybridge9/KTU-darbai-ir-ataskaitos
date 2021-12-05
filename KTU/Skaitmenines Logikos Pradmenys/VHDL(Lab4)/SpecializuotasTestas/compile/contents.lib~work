@@ -1,0 +1,8 @@
+9
+~E 1 "./../../KombinacineSchema.vhdl" 4 decoder
+~A 1 "./../../KombinacineSchema.vhdl" 12 beh
+~E 1 "./../../SpecializuotasRegistras.vhdl" 4 spec_register
+~A 1 "./../../SpecializuotasRegistras.vhdl" 14 beh2
+~E 1 "./../src/TestBench/spec_register_TB.vhd" 6 spec_register_tb
+~A 1 "./../src/TestBench/spec_register_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/spec_register_TB.vhd" 76 testbench_for_spec_register

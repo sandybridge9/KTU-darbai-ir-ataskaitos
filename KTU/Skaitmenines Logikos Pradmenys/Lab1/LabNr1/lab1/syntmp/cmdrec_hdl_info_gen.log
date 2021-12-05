@@ -1,0 +1,10 @@
+D:\Program Files (x86)\diamond\3.8_x64\synpbase\bin64\c_vhdl.exe  -osyn  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synwork\Laboratorinis1_lab1_hdl_.srs  -top  SCHEMA2  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work "D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd" -lib work D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema1.vhd -lib work D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema12.vhd -lib work D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd  -log  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\syntax.log  -fileorder  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\syntmp\hdlorder.tcl 
+rc:0 success:1 runtime:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synwork\Laboratorinis1_lab1_hdl_.srs|io:o|time:0|size:0|exec:0
+file:D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd|io:i|time:1376992808|size:146261|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema1.vhd|io:i|time:1488747883|size:5609|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema12.vhd|io:i|time:1488747883|size:3926|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd|io:i|time:1488747883|size:3939|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\syntax.log|io:o|time:1488747888|size:1027|exec:0
+file:D:\Program Files (x86)\diamond\3.8_x64\synpbase\bin\c_vhdl.exe|io:i|time:1467759276|size:2381824|exec:1
+file:D:\Program Files (x86)\diamond\3.8_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1467759490|size:3259392|exec:1

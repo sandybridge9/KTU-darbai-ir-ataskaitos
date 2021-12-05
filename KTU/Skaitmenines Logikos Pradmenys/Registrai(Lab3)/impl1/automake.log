@@ -1,0 +1,4 @@
+
+sch2vhd -FPGA -lib LatticeXP2 -i D:/KTU/SkaitmenineLogika/Registrai(Lab3)/PostumioRegistras.sch -o D:/KTU/SkaitmenineLogika/Registrai(Lab3)/impl1/PostumioRegistras.vhd -gui -msgset D:/KTU/SkaitmenineLogika/Registrai(Lab3)/promote.xml
+
+sch2vhd -FPGA -lib LatticeXP2 -i D:/KTU/SkaitmenineLogika/Registrai(Lab3)/SpecializuotasRegistras.sch -o D:/KTU/SkaitmenineLogika/Registrai(Lab3)/impl1/SpecializuotasRegistras.vhd -gui -msgset D:/KTU/SkaitmenineLogika/Registrai(Lab3)/promote.xml

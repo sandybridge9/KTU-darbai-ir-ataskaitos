@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+SpecializuotoRegistroTestas=.\SpecializuotoRegistroTestas\SpecializuotoRegistroTestas.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+SpecializuotoRegistroTestas=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\KombinacineSchema.vhdl=-1
+/..\..\SpecializuotasRegistras.vhdl=-1
+TestBench/spec_register_TB.vhd=-1
+TestBench/spec_register_TB_runtest.do=-1
+[Files.Data]
+.\..\KombinacineSchema.vhdl=VHDL Source Code
+.\..\SpecializuotasRegistras.vhdl=VHDL Source Code
+.\src\TestBench\spec_register_TB.vhd=VHDL Test Bench
+.\src\TestBench\spec_register_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=spec_register|beh|0 spec_register_tb|testbench_for_spec_register|1 
+ShowHide=ShowTopLevel
+Selected=

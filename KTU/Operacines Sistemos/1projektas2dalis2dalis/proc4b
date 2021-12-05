@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Iveskite savo gimimo metus, menesi ir diena, atskirtus tarpais vienoje eiluteje "
+read s1 s2 s3
+echo "metai: " $s1 "menesis: " $s2 "diena: " $s3
+v1=$((s1/s2))
+v2=$((s1/s3))
+v3=$((s1%s2))
+v4=$((s1%s3))
+sum=$((v1+v2))
+sand=$((v3*v4))
+echo "s1/s2: " $v1 "s1/s3: " $v2 "dalybu suma: " $sum "liekanu sandauga: " $sand
+

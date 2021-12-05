@@ -1,0 +1,2 @@
+BEGIN {print "Studentai, kuriu vardai irgi Tadas" }
+{ if($5 == "Tadas") print $1, $4, $5}

@@ -1,0 +1,7 @@
+E:\KTU projektai\Visual Studio stuff\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\bin\Debug\SavarankiskasDarbas.P2nr1.exe.config
+E:\KTU projektai\Visual Studio stuff\Savarankiski darbai\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\bin\Debug\SavarankiskasDarbas.P2nr1.exe.config
+E:\KTU projektai\Visual Studio stuff\Savarankiski darbai\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\bin\Debug\SavarankiskasDarbas.P2nr1.exe
+E:\KTU projektai\Visual Studio stuff\Savarankiski darbai\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\bin\Debug\SavarankiskasDarbas.P2nr1.pdb
+E:\KTU projektai\Visual Studio stuff\Savarankiski darbai\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\obj\Debug\SavarankiskasDarbas.P2nr1.csprojResolveAssemblyReference.cache
+E:\KTU projektai\Visual Studio stuff\Savarankiski darbai\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\obj\Debug\SavarankiskasDarbas.P2nr1.exe
+E:\KTU projektai\Visual Studio stuff\Savarankiski darbai\SavarankiskasDarbas.P2nr1\SavarankiskasDarbas.P2nr1\obj\Debug\SavarankiskasDarbas.P2nr1.pdb

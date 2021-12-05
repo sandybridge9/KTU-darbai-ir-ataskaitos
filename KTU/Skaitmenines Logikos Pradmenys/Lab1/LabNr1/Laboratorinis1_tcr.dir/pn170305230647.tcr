@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/5/2017 19:12:27
+#Project Location: D:/Tadas/KTU/SkaitmenineLogika/LabNr1; Project name: Laboratorinis1
+prj_project open "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/Laboratorinis1.ldf"
+prj_run Translate -impl lab1
+prj_src add "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/testukas/testukas.spf"
+prj_src add "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/Schema2.sch"
+prj_run Translate -impl lab1
+prj_src add "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/testukas2/testukas2.spf"
+prj_run Translate -impl lab1
+prj_src add "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/testukas3/testukas3.spf"
+#Stop recording: 3/5/2017 23:06:47

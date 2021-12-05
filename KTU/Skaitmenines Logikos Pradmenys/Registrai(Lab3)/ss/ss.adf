@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+ss=.\ss\ss.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+ss=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\impl1\PostumioRegistras.vhd=-1
+/..\..\impl1\SpecializuotasRegistras.vhd=-1
+TestBench/specializuotasregistras_TB.vhd=-1
+TestBench/specializuotasregistras_TB_runtest.do=-1
+[Files.Data]
+.\..\impl1\PostumioRegistras.vhd=VHDL Source Code
+.\..\impl1\SpecializuotasRegistras.vhd=VHDL Source Code
+.\src\TestBench\specializuotasregistras_TB.vhd=VHDL Test Bench
+.\src\TestBench\specializuotasregistras_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=specializuotasregistras|SCHEMATIC|0 specializuotasregistras_tb|testbench_for_specializuotasregistras|1 
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,45 @@
+                                                                      Rezultatai: 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Populiariausio prietaiso pavadinimas, jo pardavimo skaičius ir kaina: pavadinimas - koja, skaicius - 64, kaina - 896euro.
+Vienos rusies pirkeju sarasas, nupirktu itaisu skaicius ir uz juos sumoketu pinigu suma: 
+
+     Vardas,   Pavarde
+-----------------------
+1. Kazimieras Zemaitis
+2. Kazimieras Petraitis
+3. Kazimieras Keturakis
+ 
+Itaisu skaicius: 29 Sumoketa suma: 435euro.
+-------------------------------------------
+ 
+I kita rinkini atrinkti itaisai: 
+ 
+Nr.  Pav.  Kodas  Kaina
+------------------------
+1 . koja  , 25fb , 14   
+                                                                     Pradiniai duomenys: 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+U24a.txt: 
+
+|24fa  | ranka  | 15     |
+|25fb  | koja   | 14     |
+|26fc  | sirdis | 75     |
+|27fd  | petis  | 18     |
+|28fe  | nosis  | 142    |
+|29ff  | akis   | 155    |
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+U24b.txt: 
+
+|Kazimieras  | Zemaitis     | 24fa   | 24fa |
+|Kazimieras  | Petraitis    | 24fa   | 24fa |
+|Kazimieras  | Keturakis    | 24fa   | 24fa |
+|Kazimieras  | Jonaitis     | 25fb   | 25fb |
+|Kazimieras  | Zaliasis     | 26fc   | 26fc |
+|Kazimieras  | Mentaitis    | 27fd   | 27fd |
+|Kazimieras  | Brigaitis    | 29ff   | 29ff |
+|Kazimieras  | Ausraitis    | 28fe   | 28fe |
+|Kazimieras  | Kinderis     | 25fb   | 25fb |
+|Kazimieras  | Karaitis     | 29ff   | 29ff |
+|Kazimieras  | Zvaigzdaitis | 25fb   | 25fb |
+|Kazimieras  | Selmaitis    | 24fa   | 24fa |
+|Kazimieras  | Vienaitis    | 29ff   | 29ff |

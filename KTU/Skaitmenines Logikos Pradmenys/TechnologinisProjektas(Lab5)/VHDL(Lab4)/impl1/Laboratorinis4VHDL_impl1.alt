@@ -1,0 +1,26 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon May 29 14:25:03 2017 *
+NOTE DESIGN NAME: spec_register *
+NOTE DEVICE NAME: LFXP2-5E-6TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Q[0] : 37 : out *
+NOTE PINS clk : 50 : in *
+NOTE PINS Q[6] : 45 : out *
+NOTE PINS Q[5] : 44 : out *
+NOTE PINS Q[4] : 43 : out *
+NOTE PINS Q[3] : 40 : out *
+NOTE PINS Q[2] : 39 : out *
+NOTE PINS Q[1] : 38 : out *
+NOTE PINS Data[6] : 35 : in *
+NOTE PINS Data[5] : 32 : in *
+NOTE PINS Data[4] : 31 : in *
+NOTE PINS Data[3] : 30 : in *
+NOTE PINS Data[2] : 29 : in *
+NOTE PINS Data[1] : 28 : in *
+NOTE PINS Data[0] : 27 : in *
+NOTE PINS A1 : 56 : in *
+NOTE PINS A0 : 55 : in *
+NOTE PINS rst : 53 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

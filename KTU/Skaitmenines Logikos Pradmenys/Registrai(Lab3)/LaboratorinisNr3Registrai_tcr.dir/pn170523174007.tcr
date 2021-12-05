@@ -1,0 +1,6 @@
+#Start recording tcl command: 5/23/2017 14:42:48
+#Project Location: D:/KTU/SkaitmenineLogika/Registrai(Lab3); Project name: LaboratorinisNr3Registrai
+prj_project open "D:/KTU/SkaitmenineLogika/Registrai(Lab3)/LaboratorinisNr3Registrai.ldf"
+prj_src add "D:/KTU/SkaitmenineLogika/Registrai(Lab3)/Postumioregistrotestas2/Postumioregistrotestas2.spf"
+prj_src add "D:/KTU/SkaitmenineLogika/Registrai(Lab3)/Specializuotoregistrotestas2/Specializuotoregistrotestas2.spf"
+#Stop recording: 5/23/2017 17:40:07

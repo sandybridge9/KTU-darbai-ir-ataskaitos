@@ -1,0 +1,8 @@
+[Version]
+Version=10.3
+[Designs]
+SkaitiklioTestas=SkaitiklioTestas.adf
+[Settings]
+Active=SkaitiklioTestas
+[Expand]
+skaitikliotestas=1

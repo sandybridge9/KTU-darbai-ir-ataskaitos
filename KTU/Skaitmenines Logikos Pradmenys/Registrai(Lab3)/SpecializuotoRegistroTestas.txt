@@ -1,0 +1,41 @@
+ResetProcesas: process
+	
+    begin
+    reset <= '0';wait for 3 ns; -- Reset signalas
+    reset <= '1';wait;
+    end process;
+	
+    Sinchroninis: process
+	
+    begin
+    CLK <= '0'; wait for 5 ns; -- ciklas 5-5 ns
+    CLK <= '1'; wait for 5 ns;
+    end process;
+	
+    --PostumiuProcesas: process
+--	
+--    begin
+--    x6 <= '1'; x5 <= '0'; x4 <= '1'; x3 <= '1'; x2 <= '0'; x1 <= '0'; x0 <= '1';
+--    --------------------------------------------------------------
+--    A0 <= '0'; A1 <= '0'; wait for 10 ns; -- Informacijos irasymas
+--    A0 <= '0'; A1 <= '1'; wait for 10 ns; -- LL1, iraso 0
+--    A0 <= '1'; A1 <= '0'; wait for 10 ns; -- CL1
+--	A0 <= '1'; A1 <= '1'; wait for 10 ns; -- AR2, papild. kodas
+--    wait;
+--    end process;
+	
+	Postumiai: process
+	begin
+	x6 <= '1'; x5 <= '1'; x4 <= '0'; x3 <= '1'; x2 <= '0'; x1 <= '0'; x0 <= '1'; -- stumdomas žodis
+	--------------------------------------------------------------
+	--A1 <= '1'; A0 <= '1'; wait for 10 ns;		-- irašome
+	A1 <= '0'; A0 <= '0'; wait for 10 ns;		-- saugome
+	A1 <= '1'; A0 <= '0'; wait for 10 ns; -- LL1
+	A1 <= '0'; A0 <= '0'; wait for 10 ns;		-- saugome
+	A1 <= '0'; A0 <= '1'; wait for 10 ns; -- CL1
+	A1 <= '0'; A0 <= '0'; wait for 10 ns;		-- saugome
+	A1 <= '1'; A0 <= '1'; wait for 10 ns; -- AR2	
+	A1 <= '0'; A0 <= '0'; wait for 10 ns;		-- saugome
+	wait;
+	-- assert false report "Pabaiga" severity failure;
+	end process;

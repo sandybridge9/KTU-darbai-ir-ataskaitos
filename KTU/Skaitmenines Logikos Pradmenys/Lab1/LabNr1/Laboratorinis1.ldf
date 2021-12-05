@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Laboratorinis1" device="LFXP2-5E-6TN144C" default_implementation="lab1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="lab1" dir="lab1" description="lab1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SCHEMA2"/>
+        <Source name="Schema1.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMA1"/>
+        </Source>
+        <Source name="Schema12.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMA12"/>
+        </Source>
+        <Source name="Schema2.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMA2"/>
+        </Source>
+        <Source name="Laboratorinis1.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="testas2/testas2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testas3/testas3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testasnr1/testasnr1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testavimas/testavimas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testtt/testtt.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testukas/testukas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testukas2/testukas2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testukas3/testukas3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Laboratorinis11.sty"/>
+</BaliProject>

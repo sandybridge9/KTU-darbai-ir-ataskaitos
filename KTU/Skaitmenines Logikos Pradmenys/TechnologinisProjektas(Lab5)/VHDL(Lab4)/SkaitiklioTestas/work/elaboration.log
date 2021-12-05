@@ -1,0 +1,42 @@
+Active-HDL 10.3.3558.6081  2017-05-24 02:25:55
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_counter
+
+
+------------------------------------------------------------------------------------------------
+Entity     | Architecture    | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+counter_tb | TB_ARCHITECTURE | work    |      | 10.3.3558.6081  (Windows) | -O3
+counter    | behv            | work    |      | 10.3.3558.6081  (Windows) | -O3
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Configuration           | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+testbench_for_counter        | work    |      | 10.3.3558.6081  (Windows) | -O3
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Package                 | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                     | std     |      |                           | <unavailable>
+TEXTIO                       | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164               | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith              | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED           | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Library                      | Comment
+------------------------------------------------------------------------------------------------
+ieee                         | Standard IEEE packages library
+std                          | Standard VHDL library
+work                         | None
+------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r TESTBENCH_FOR_counter
+
+
+The performance of simulation is reduced. Version Lattice Edition

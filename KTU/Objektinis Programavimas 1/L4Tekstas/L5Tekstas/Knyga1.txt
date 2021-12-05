@@ -1,0 +1,6 @@
+﻿Reikia teksto žodžius sulygiuoti, kad kiekvienos eilutės kiekvienas žodis prasidėtų fiksuotoje toje pačioje pozicijoje.
+Galima įterpti tik minimalų būtiną tarpų skaičių.
+Galima šalinti kelis iš eilės einančius vienodus skyriklius, paliekant tik vieną jų atstovą.
+Įterpimo ir šalinimo taisykles taikome, siekdami gauti lygiuotą minimalų tekstą.
+Šalinimo taisyklės netaikome, jei nėra poreikio.
+Pradinio teksto eilutės ilgis neviršija 80 simbolių.

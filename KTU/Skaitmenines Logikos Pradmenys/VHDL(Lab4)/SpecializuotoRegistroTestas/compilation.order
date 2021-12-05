@@ -1,0 +1,3 @@
+.\..\KombinacineSchema.vhdl
+.\..\SpecializuotasRegistras.vhdl
+.\src\TestBench\spec_register_TB.vhd

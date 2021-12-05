@@ -1,0 +1,5 @@
+E:\KTU projektai\Visual Studio stuff\savarankiskas darbas nr vienas\bin\Debug\savarankiskas darbas nr vienas.exe.config
+E:\KTU projektai\Visual Studio stuff\savarankiskas darbas nr vienas\bin\Debug\savarankiskas darbas nr vienas.exe
+E:\KTU projektai\Visual Studio stuff\savarankiskas darbas nr vienas\bin\Debug\savarankiskas darbas nr vienas.pdb
+E:\KTU projektai\Visual Studio stuff\savarankiskas darbas nr vienas\obj\Debug\savarankiskas darbas nr vienas.exe
+E:\KTU projektai\Visual Studio stuff\savarankiskas darbas nr vienas\obj\Debug\savarankiskas darbas nr vienas.pdb

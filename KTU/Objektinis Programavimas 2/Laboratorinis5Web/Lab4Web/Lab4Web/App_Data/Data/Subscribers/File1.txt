@@ -1,0 +1,5 @@
+﻿Antanaitis;Jono-5;2;6;4A;1;
+Mantainas;Sid-8;5;5;4A;2;
+Kombainas;Zuko-13;8;4;4A;22;
+Miestelenas;Jono-415;12;3;4B;3;
+Anglaitis;Jono-75;2;2;4B;14;

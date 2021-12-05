@@ -1,0 +1,3 @@
+.\..\..\impl1\StatinisTrigeris.vhd
+.\..\..\impl1\DviejuPakopuTrigeris.vhd
+.\src\TestBench\statinistrigeris_TB.vhd

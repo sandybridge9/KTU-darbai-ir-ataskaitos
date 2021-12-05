@@ -1,0 +1,10 @@
+(defun dtr (a)
+    (* PI(/ a 180.0))); kampai laipsniais
+(defun c:zvaigzde ()
+  (SETQ Pagrindas (GETPOINT "\n Nurodykite apatinio þvaigþdës kampo vietà"))
+  (SETQ Ilgis (GETREAL "\ Áveskite þvaigþdës ilgá (aukðtá/plotá)"))
+  (COMMAND "osnap" "OFF")
+  (setq pt1 (polar Pagrindas (dtr 45.0)Ilgis))
+  (setq pt2 (polar pt1 (dtr 135.0)Ilgis))
+  (setq pt3 (polar pt2 (dtr 225.0)Ilgis))
+  (command "pline" Pagrindas "arc" "direction" "80.0" pt1 "arc" "direction" "170.0" pt2 "arc" "direction" "260.0" pt3 "arc" "direction" "350.0" Pagrindas ""))

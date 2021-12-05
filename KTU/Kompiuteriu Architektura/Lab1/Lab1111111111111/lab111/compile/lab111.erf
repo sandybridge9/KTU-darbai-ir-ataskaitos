@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\reg.vhd" 
+MESSAGE "Compile Entity "REG"" 
+MESSAGE "Compile Architecture "rtl" of Entity "REG"" 
+MESSAGE "File: W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\rom.vhd" 
+MESSAGE "Compile Entity "ROM"" 
+MESSAGE "Compile Architecture "rtl" of Entity "ROM"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

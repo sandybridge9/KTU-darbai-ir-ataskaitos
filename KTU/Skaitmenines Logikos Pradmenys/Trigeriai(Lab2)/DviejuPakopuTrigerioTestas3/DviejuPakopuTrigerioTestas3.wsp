@@ -1,0 +1,14 @@
+[COMPILESTATUS|.\..\impl1\StatinisTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+[COMPILESTATUS|.\..\impl1\DviejuPakopuTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\dviejupakoputrigeris_TB.vhd]
+FileTimeLow=30593612
+Status=Modified
+[COMPILESTATUS|.\src\TestBench\dviejupakoputrigeris_TB_runtest.do]
+FileTimeLow=30593612
+Status=Modified
+[Gui config]
+RunFor=100 ns

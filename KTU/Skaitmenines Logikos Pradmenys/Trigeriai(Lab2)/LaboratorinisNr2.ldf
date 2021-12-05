@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LaboratorinisNr2" device="LFXP2-5E-6TN144C" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="DVIEJUPAKOPUTRIGERIS"/>
+        <Source name="StatinisTrigeris.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="STATINISTRIGERIS"/>
+        </Source>
+        <Source name="DviejuPakopuTrigeris.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="DVIEJUPAKOPUTRIGERIS"/>
+        </Source>
+        <Source name="DviejuPakopuTrigerioTestas/DviejuPakopuTrigerioTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="DviejuPakopuTrigerioTestas/DviejuPakopuTrigerioTestas2/DviejuPakopuTrigerioTestas2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="DviejuPakopuTrigerioTestas3/DviejuPakopuTrigerioTestas3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="LaboratorinisNr2.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="StatinioTrigerioTestas/StatinioTrigerioTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LaboratorinisNr21.sty"/>
+</BaliProject>

@@ -1,0 +1,9 @@
+#!/bin/sh
+num=$1
+num2=0
+echo $num
+while [ $num2 -ne $num ]
+do
+	echo $num2
+	num2=$((num2+1))
+done	

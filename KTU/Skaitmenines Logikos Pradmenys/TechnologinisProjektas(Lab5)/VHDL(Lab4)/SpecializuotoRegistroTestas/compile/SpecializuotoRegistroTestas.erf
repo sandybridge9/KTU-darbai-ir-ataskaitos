@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd" 
+MESSAGE "Compile Entity "spec_register_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"" 
+ERROR COMP96_0019: "Keyword 'begin' expected." "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd" 31 2
+ERROR COMP96_0016: "Design unit declaration expected." "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd" 31 21
+MESSAGE "Compile Configuration "TESTBENCH_FOR_spec_register"" 
+FAILURE "Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

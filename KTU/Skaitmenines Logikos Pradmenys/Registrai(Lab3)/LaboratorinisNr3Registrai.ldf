@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LaboratorinisNr3Registrai" device="LFXP2-5E-6TN144C" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SPECIALIZUOTASREGISTRAS"/>
+        <Source name="PostumioRegistras.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="POSTUMIOREGISTRAS"/>
+        </Source>
+        <Source name="SpecializuotasRegistras.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SPECIALIZUOTASREGISTRAS"/>
+        </Source>
+        <Source name="LaboratorinisNr3Registrai.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="PostumioRegistroTestas/PostumioRegistroTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Postumioregistrotestas2/Postumioregistrotestas2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Specializuotoregistrotestas2/Specializuotoregistrotestas2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="SpecializuotoRegistrTestas/SpecializuotoRegistrTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="ss/ss.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LaboratorinisNr3Registrai1.sty"/>
+</BaliProject>

@@ -1,0 +1,17 @@
+#!/bin/sh
+if test $# -eq 0 ;then echo "nera argumentu"; fi
+if test $# -gt 0 ;then echo "Argumentu skaicius: " $# "Argumentai: " $*; fi
+if [ -d $1 ] ;then ls -l $1 ; fi
+if test $# -eq 1
+then
+	if [ -f $1 ]
+	then
+		echo "Ar norite matyti failo turini Y/N "
+		read answer
+		if test $answer -eq "Y"
+		then
+			more $1
+		fi
+	fi
+fi
+

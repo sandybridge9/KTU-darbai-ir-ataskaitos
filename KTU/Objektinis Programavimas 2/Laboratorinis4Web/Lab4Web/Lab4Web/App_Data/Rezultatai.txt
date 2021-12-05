@@ -1,0 +1,30 @@
+Pradiniai duomenys: 
+ 
+| Pavarde      | Adresas      | Prad. Men.   | Trukme         | Kodas          | Kiekis         | 
+-------------------------------------------------------------------------------------------------
+| Antanaitis   | Jono-5       | 2            | 6              | 4A             | 1              | 
+| Mantainas    | Sid-8        | 5            | 5              | 4A             | 2              | 
+| Kombainas    | Zuko-13      | 8            | 4              | 4A             | 22             | 
+| Miestelenas  | Jono-415     | 12           | 3              | 4B             | 3              | 
+| Anglaitis    | Jono-75      | 2            | 2              | 4B             | 14             | 
+| Giedraitis   | Jonso-5      | 7            | 12             | 4C             | 1              | 
+| Bliumas      | Sieed-8      | 9            | 2              | 4C             | 2              | 
+| Zomsinas     | Zxcuko-13    | 8            | 1              | 4D             | 1              | 
+| Nielsenas    | Jkolno-415   | 12           | 5              | 4D             | 5              | 
+| Leslis       | Jonlolo-75   | 5            | 6              | 4D             | 7              | 
+ 
+| Kodas        | Pavadinimas  | Leidejas     | Kaina          | 
+---------------------------------------------------------------
+| 4A           | Ratai        | Aibe         | 14             | 
+| 4B           | Sodas        | Alba         | 9              | 
+| 4C           | Elektronika  | Fortas       | 4              | 
+| 4D           | Miestas      | Sigma        | 13             | 
+ 
+Surikiuoti rezultatai: 
+ 
+| Pelnas       | Leidejas     | Leidinys     |
+----------------------------------------------
+| 308          | Aibe         | Ratai        | 
+| 65           | Sigma        | Miestas      | 
+| 27           | Alba         | Sodas        | 
+| 4            | Fortas       | Elektronika  | 

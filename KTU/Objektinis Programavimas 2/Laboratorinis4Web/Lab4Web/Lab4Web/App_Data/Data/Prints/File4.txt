@@ -1,0 +1,2 @@
+﻿4C;Elektronika;Fortas;4;
+4D;Miestas;Sigma;13;

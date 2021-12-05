@@ -1,0 +1,57 @@
+timestamp=1495491974405
+
+[~A]
+ModifyID=4
+Version=74
+
+[postumioregistras]
+A/schematic=A/SCHEMATIC 21|./../../impl1/PostumioRegistras.vhd|32|1*0
+BinI32/schematic=3*0
+I=0*1002
+I/schematic=I/SCHEMATIC 0*4071
+M=11|0|vd0|1495491941946|./../../impl1/PostumioRegistras.vhd|0*257*0x3cf510a015e9f0407d93d21d3028db3ed4339991|0*896*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1495491941950|./../../impl1/PostumioRegistras.vhd|0*1248*0x8ae6c224c299b4de61569181d605e7f76b5392d4|0*3952*0x9065d32a2e40e13794b29a2731812845
+R=./../../impl1/PostumioRegistras.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|4f051e136ee072e9444cf85911c911e66659daff4f3f2c4dad784e9fc16c655435541563c0bf53b6a909068140c03fce
+Version/schematic=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7005c3be62b36dbb43f66fe80b71b85c1
+
+[specializuotasregistras]
+A/schematic=A/SCHEMATIC 21|./../../impl1/SpecializuotasRegistras.vhd|30|1*15123
+BinI32/schematic=3*476
+I=0*5420
+I/schematic=I/SCHEMATIC 0*11950
+M=11|0|vd0|1495491942160|./../../impl1/SpecializuotasRegistras.vhd|0*4679*0x5662c7bebee5bb8a03b0bc327329e196eb8e0027|0*5302*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1495491974159|./../../impl1/SpecializuotasRegistras.vhd|0*9001*0x14458a0561e535cf0e2e1d83f0044e52ebf819a8|0*11819*0x20116f55b147878295aeff36dce7fc50
+R=./../../impl1/SpecializuotasRegistras.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|037453c6b1bed0b95ebacc494b74fa701af41dc68d7ac6277560d06f237428c726527262ddaa47cb266f3a3c4d9b973a203effc3f7d4005a3ee1c809f651707c
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7b541a27ce391c49b6f94174f392c2988
+
+[specializuotasregistras_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/specializuotasregistras_TB.vhd|11|1*22757
+BinI32/tb_architecture=3*844
+I=0*12890
+I/tb_architecture=I/TB_ARCHITECTURE 0*14959
+M=11|0|vd0|1495491974377|./../src/TestBench/specializuotasregistras_TB.vhd|0*12488*0x2521b6e97667c42bd29a4413730d6b9c15ea9836|0*12761*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vd0|1495491974380|./../src/TestBench/specializuotasregistras_TB.vhd|0*13145*0x32c22494b643c89b621f147907302a7ce119872c|0*14811*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/specializuotasregistras_TB.vhd|8
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|037453c6b1bed0b95ebacc494b74fa70f57c56eb607f2a7b08cc3d2f36ca6ec7b3bdc68a39b127cb2fdabd2d8414271180224aa17607a648aa5f43d477cf36bc
+Version/tb_architecture=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bead5f73a1716916bf43b97232c5d8704c0
+
+[testbench_for_specializuotasregistras]
+Configures=specializuotasregistras_tb.TB_ARCHITECTURE
+E=1*25510
+I=0*15860
+M=2|0|vd0|1495491974385|./../src/TestBench/specializuotasregistras_TB.vhd|0*15285*0xd266c905fae149afcf562d1b7a39aba5cc0c39a5|0*15691*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/specializuotasregistras_TB.vhd|128
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5ac5b9ab52a4437088bf3670691f3b18b8fa618316ab6880ccc54d14b90ddd32b02ce810ebe6068819da2ce6f46b226a2
+
+[~MFT]
+0=10|0work.mgf|15860|3329
+1=2|1work.mgf|25510|7638
+3=1|3work.mgf|844|0
+
+[~U]
+postumioregistras=POSTUMIOREGISTRAS 11|0*0|
+specializuotasregistras=SPECIALIZUOTASREGISTRAS 11|0*4418|
+specializuotasregistras_tb=11|0*12330|
+testbench_for_specializuotasregistras=TESTBENCH_FOR_specializuotasregistras 2||

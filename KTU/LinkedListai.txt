@@ -1,0 +1,617 @@
+ //// Long story short, jei kam sudetinga isimint skirtumus tarp fiksuotu ir nefiksuotu ( pvz man ) tai tiesiog, didziausias skirtumas
+///visados turi pradzia ir pabaiga ne tuscia 
+//// ir kai rasai visus ciklus, tai pradedi ne nuo pr, o nuo pr.Kitas pvz. for(Mazgas d1 = pr.Kitas; d1.Kitas != null; d1 = d1.Kitas)
+///ir ziuri ne d1!= null, o d1.Kitas != null, cia didziausi skirtumai :D
+
+
+public class Sarasas { //vienkryptis
+	
+	sealed class Mazgas 
+  {
+		public Studentas Duom {get; private set;}
+		public Mazgas Kitas {get;set;}
+		
+		public Mazgas(){}
+		public Mazgas(int duom, Mazgas kitas) 
+    {
+			Duom = duom;
+			Kitas = kitas;
+                //ir reikia nupiesti Zoidberga (V)(;,,;)(V)
+		}
+  }
+	 
+	private Mazgas pr; //nereikia geteriu ir seteriu
+	private Mazgas pb;
+	private Mazgas d;
+	 
+  	///ARBA
+  	public Sarasas()
+      {
+		this.pr = this.pb = this.d = null;
+	}
+	/////
+
+
+  
+	public void DetiT(Elementas s) {
+		Mazgas dd = new Mazgas(s,null);
+		if (pr!=null) {
+			pb.Kitas = dd;
+			pb = dd;
+		} else {
+			pr = dd;b
+			pb = dd;
+		}
+	}
+
+	public void DetiA(Studentas s) 
+      {
+		pr = new Mazgas(s,pr);
+	}
+	//Tai vienkrypcio saraso aprasas iki cia, taip?  
+  
+   
+	public Sarasas Sulieti(Sarasas kitas)
+  {
+		Sarasas naujas = new Sarasas();
+		d = pr;
+    
+		while(kitas.Yra() && d != null)
+		{
+			if (kitas.ImtiDuomenis() < d.duom) {
+				naujas.DetiT(kitas.ImtiDuomenis());
+				kitas.Kitas();
+			} else {
+				naujas.DetiT(d.duom);
+				d=d.kitas;
+			}
+		}
+          //hello
+		while(d!=null) {
+			naujas.DetiT(d.duom);
+			d=d.kitas;
+		}
+    
+		while(kitas.ArYra()) {	
+			naujas.DetiT(kitas.ImtiDuomenis());
+			kitas.Kitas();
+		}
+		return naujas;
+	}
+
+  
+  
+	public void Rikiuoti() 
+  { //minmax/iterpimo // o cia sitas geras ? // => Pataisiau, dabar geras ;-)
+		if (pr == null) return;
+    
+		for (Mazgas d = pr; d != null; d = d.Kitas) 
+    {
+			Mazgas maxv = d;
+			for (Mazgas d2=d.Kitas; d2 !=null. d2=d2.Kitas) 
+      {
+				if (d2.Duom > maxv.Duom) 
+        {
+					maxv = d2;
+				}
+			}
+      
+			Studentas st = d.Duom;
+			d.Duom = maxv.Duom;
+			maxv.Duom = st;
+		}
+  }
+
+  
+  
+  
+    public void Rikiuoti() //burbulas
+    { 
+        if (pr == null) return;
+        bool keista = true;
+        while (keista)
+        {
+            keista = false;
+            for (Mazgas d = pr; d.Kitas != null; d = d.kitas)
+            {
+                if (d.Duom > d.Kitas.Duom)
+                {
+                    Studentas st = d.Duom;
+                    d.Duom = d.Kitas.Duom;
+                    d.Kitas.Duom = st;
+
+                    keista = true;
+                }
+            }
+        }
+    }
+   
+  ///Geresnis variantas:
+    public void RikiuotiB1()
+    {
+        if (!pr) return;
+        bool keista = true;
+        while (keista)
+        {
+            keista = false;
+            var pra = pr.Kitas;
+            while (pra.Kitas.Kitas != null)
+            {
+                if (pra.Duom > pra.Kitas.Duom)
+                {
+                    Studentas St = pra.Duom;
+                    pra.Duom = pra.Kitas.Duom;
+                    pra.Kitas.Duom = St;
+                    keista = true;
+                }
+                pra = pra.Kitas;
+            }
+        }
+    }
+  
+   
+
+   
+   public void SukeistiElementus(Klase el1, Klase el2) //Robertas mano kad veikia // Jei neveiks, Roberta ant lauzo.
+    {
+      for(Mazgas d = pr; d != null; d = d.kitas) 
+      {
+        if (d.Duom == el1) 
+        {
+          d.Duom = el2;
+        } 
+        else if (d.Duom == el2) 
+        {
+          d.duom = el1;
+        }
+      }
+    }
+   
+   
+            }
+   
+  //Kas jeigu elementu bus daugiau nei viena pasalinti?// Gali susikurti metoda kur suskaiciuoj kiek ju yra ir su ciklu tiek kartu ir prasukt
+	public void Salinti(Klase el)// Gal toksai? // SITOKS. Sitas va turetu gerai veikt
+	{
+		Mazgas vieta = null;
+		for (var d = pr; d.Data != el && d != null; d = d.Next) // cia yra klaida! Kai neranda, programa nulušta! Ištestuota!
+			vieta = d;								// dabar turetu veikti
+		if (vieta == null)// elementas pradžioj
+			pr = pr.Next;
+		else if (vieta.Next == pb)// elementas pabaigoj
+		{
+			pb.Data = vieta.Data;
+			pb.Next = null;
+		}
+		else	//viduj
+			vieta.Next = vieta.Next.Next;
+		//IRGI NEVEIKIA  :/
+    
+       }
+///// prasydeda////////////////////////////////////
+public void SalintiNeigiamus()
+{
+    if(pr == null) return;
+
+    for(Mazgas M = pr; M.Kitas != null; M = M.Kitas)
+    {
+        if(M.Kitas.Duom < 0)
+        {
+        M.Kitas = M.Kitas.Kitas;
+        }
+    }
+
+   if(pr.Duom < 0)
+   {
+       pr = pr.Kitas;
+   }
+}
+
+public void Salinti(T Elementas)
+{
+    if(pr == null) return;
+
+    for(Mazgas M = pr; M.Kitas != null; M = M.Kitas)
+    {
+        if(M.Kitas.Duom.Equals(Elementas))
+        {
+        M.Kitas = M.Kitas.Kitas;
+          return;
+        }
+    }
+
+   if(pr.Duom.Equals(Elementas))
+   {
+       pr = pr.Kitas;
+   }
+}
+
+public void Salinti(int Elementas)
+{
+    if(pr == null) return;
+
+    for(Mazgas M = pr; M.Kitas != null; M = M.Kitas)
+    {
+        if(M.Kitas.Duom == Elementas)
+        {
+        M.Kitas = M.Kitas.Kitas;
+          return;
+        }
+    }
+
+   if(pr.Duom == Elementas)
+   {
+       pr = pr.Kitas;
+   }
+}
+//////////////////////////////baiges
+     
+     //šitas labore veike // Sitas labai sudetingai atrodo, bus lengvesnis, biski palaukit, jeigu mergina ras skaidrese atsius.ner skaidrese. Ne musu skaidrese, is OPP. Ten buvo 100proc.
+     public void Salint(Kitas m)
+    {
+        for (Mazgas d = pr; d != null; d = d.Kitas)
+        {
+            if (d.Kitas != pb)
+            {
+                while (d == pr && d != null && d.Duom.Equals(m))
+                {
+                    d.Duom = d.Kitas.Duom;
+                    d.Kitas = d.Kitas.Kitas;
+                    pr = d;
+                }
+                while (d.Duom.Equals(m) && d.Kitas.Kitas != pb)
+                {
+                    d.Duom = d.Kitas.Duom;
+                    d.Kitas = d.Kitas.Kitas;
+                }
+            }
+            else if (d.Kitas == pb && d.Kitas.Duom.Equals(m))
+            {
+                d.Kitas = null;
+                pb = d;
+            }
+        }
+        //NEVEIKIA, testavau :/
+    }
+
+}
+   
+   public void Iterpimas(Studentas naujas, Studentas vieta) { //iterpia NAUJAS iskart uz studento VIETA
+     for(Mazgas d=pr; d!=null; d=d.kitas) {  // ir sita poto ivertinkit ar  veikia visais atvejais :D
+       if (d.duom == vieta) 
+       {
+          d.kitas=new Mazgas(naujas, d.kitas);
+       }
+     }
+   }
+
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+VIENKRYPTIS FIKSUOTAS
+  
+  public Sarasas 
+  {
+
+  
+  private Mazgas pr {get;set;}
+  private Mazgas pb {get;set;}
+  private Mazgas pre {get;set;} 
+  private Mazgas d {get;set;} 
+  
+  
+  public Sarasas()
+  {
+    pb = new Mazgas(new Mazgas(),null);
+    pr = new Mazgas(new Mazgas(),pb);
+    pre = pr;
+    d = null;
+  }
+  
+  public void DetiA(Studentas duom) // Del šito negarantuoju. Bet iš skaidriu
+  {
+    pr.Kitas = new Mazgas(duom,pb);//rodykle i pabaiga nors elementus deda i prieki saraso :D tikiu bet vistiek :D Nu cia grynai copy-> paste is skaidriu, tavo variantas logiskesnis
+    pb = pr.Kitas;
+    //o ne taip?: Is skaidriu imu, ten taip parasyta kaip auksciau, zinau, del to ir negarantuoju kad gerai (tikiuos nebus ryt)
+    pr.Kitas = new Mazgas(duom, pr.Kitas);// kazkaip nelogiškai ten
+  }
+  
+  public void DetiT(Studentas duom)
+  {
+    pre.Kitas = new Mazgas(duom,pb);
+    pre = pre.Kitas;
+  }
+  
+  public void RikiuotiMinMax() 
+  {
+    for(Mazgas d1 = pr.Kitas; d1.Kitas != null; d1 = d1.Kitas)
+    {
+      Mazgas maxv = d1;
+      for(Mazgas d2 = d1; d2.Kitas != null; d2 = d2.Kitas)
+      if(d2.Duomenys < maxv.Duomenys)
+        maxv = d2;
+      Studentas St = d1.Duom;
+      d1.Duom = maxv.Duom;
+      maxv.Duom = St;
+      
+    }
+  }
+  
+  public void RikiuotiBurbuliuku() // 2 While ciklai, man labiau priimtina 1 while +  1 for, bet tiek to.
+  {
+    bool keista = true;
+    while(keista)
+    {
+      keista = false;
+      var pra = pr.Kitas;
+      while(pra.Kitas.Kitas != null)
+      {
+        if(pra.Duom > pra.Kitas.Duom)
+        {
+          Studentas St = pra.Duom;
+          pra.Duom = pra.Kitas.Duom;
+          pra.Kitas.Duom = St;
+          keista = true;
+        }
+        pra = pra.Kitas;
+      }
+    }
+  }
+  
+  
+  
+  }
+    
+  
+         
+         
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////         
+DVIKRYPTIS SARASAS
+public Sarasas { //dvikryptis sarasas
+  
+  sealed class Mazgas {
+    public Studentas Duom {get;set;}
+    public Mazgas Desine {get;set;}
+    public Mazgas Kaire {get;set;}
+    
+    public Mazgas(){}
+    public Mazgas(Studentas duom, mazgas desine, Mazgas kaire) {
+      this.Duom = duom;
+      this.Desine = desine;
+      this.Kaire = kaire;
+  	}	
+  }
+  
+  
+  private Mazgas pradzia;
+  private Mazgas pabaiga;
+  private Mazgas d;
+  
+  public Sarasas(){
+  	pradzia = null;
+    pabaiga = null;
+  }
+  
+  public void DetiT(Studentas s) {
+    if (!pradzia) {
+      var dd = new Mazgas(s,pb,null); 
+      pabaiga.Desine = dd;
+      pabaiga = dd;
+    } 
+    else {
+          pradzia = new Mazgas(s,null,null);
+          pabaiga = pradzia;
+    }
+  }
+  
+  public void DetiA(Studentas s) {
+    if (!pradzia) {
+    	pradzia = new Mazgas(s,null,null);
+      pabaiga = pradzia;
+    } 
+    else {
+      var dd = new Mazgas(s,null,pradzia);
+      pradzia.Kaire = dd;
+      pradzia = dd;
+    }
+  } 
+}
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+DVIKRYPTIS FIKSUOTAS
+  
+  
+  public sealed class Mazgas
+        {
+        public Studentas Data { get; set; }
+        public Mazgas Kaire { get; set; }
+        public Mazgas Desine { get; set; }
+        public Mazgas() {}
+        public Mazgas(Studentas duom, Mazgas adrk, Mazgas adrr)
+            {
+          Data = duom;
+          Kaire = adrk;
+          Desine = adrr;
+            }
+       
+        }
+  public sealed class Sarasas 
+        {
+        private Mazgas pr; // sarašo pradžia
+        private Mazgas pb; // sarašo pabaiga
+        private Mazgas pre; // eilei
+        private Mazgas pab; // deklui
+        private Mazgas d; // sarašo sasaja
+    
+    
+        public Sarasas()
+            {
+              pr = new Mazgas(Studentas, null, null);
+              pb = new Mazgas(Studentas, pr, null);
+              pre = pr;
+              pr.Desine = pb;
+              pab = pb;
+              d = null;
+            }
+      
+    
+    
+        public void Pradzia() { d = pr; }
+        public void Pabaiga() { d = pb; }
+        public bool Stop() { return d == null; }
+        public void Desinen() { d = d.Desine; }
+        public void Kairen() { d = d.Kaire; }
+        public bool YraD() { return d.Desine != null; }
+        public bool YraK() { return d.Kaire != null; }
+        public Studentas Imti() { return d.Data; }
+        public void PridetiA(Studentas duom)
+		{
+		pab.Kaire = new Mazgas(duom, pr, pab);
+		pab = pab.Kaire;
+		pr.Desine = pab;9o
+		}
+
+    
+    
+        public void PridetiT(Studentas duom)
+            {
+            pre.Desine = new Mazgas(duom, pre, pb);
+            pre = pre.Desine;
+            pb.Kaire = pre;
+            }`
+  
+    
+    
+     public void Rikiuoti2() // Gal sitas labiau y fiksuota panasus, jis jau nekabins fiksuotu
+            {
+            for (Mazgas d1 = pr.Kitas; d1.Desine != null; d1 = d1.Desine) // Bijau suklaidint, bet sitas veike metodas, is kazkurio laboro istraukiau, bet mano nuomone, turetu kitaip but.
+                {
+                Mazgas maxv = d1;
+                for (Mazgas d2 = d1; d2.Desine != null; d2 = d2.Desine)
+
+                    if (d2.Data.CompareTo(maxv.Data) < 0)
+                        maxv = d2;
+                Studentas St = d1.Data;
+                d1.Data = maxv.Data;
+                maxv.Data = St;
+                }
+            }
+    
+    
+        public void Salinti(Mazgas dd) // Jei zinoma vieta.
+        {
+          dd.Desine.Kaire == dd.Kaire;
+          dd.Kaire.Desine == dd.Desine;
+          dd.Kaire = null;
+          dd.Desine = null;
+        }
+    
+    
+        public void IterptiUz(Mazgas dd, Studentas duom) // dd adresas uz kurio iterpiama.
+        {
+          Mazgas rr = new Mazgas(duom, dd, dd.Desine);
+          dd.Desine = rr;
+          rr.Desine.Kaire = rr;
+        }
+    
+    
+  
+  
+
+
+
+
+/////////////////////////////////////////////////////// 
+2 uzduotis LINQ
+  
+1)
+  ///Gal kas galit pasakyti kuo skirasi šios 3 užklausos?
+  
+int laikas = p.Where(eil => eil.numeris=="10")
+              .Sum(eil => eil.trukme);
+    
+int laikas = p.Where(eil => eil.numeris=="10")
+              .Select(eil => eil.trukme)
+              .Sum();
+
+var laikas = (from a in p
+             where a.numeris == "10"
+  		 select a.trukme).Sum();
+    
+2)  
+
+  ///let variantas, neefektyvus RAM atžvilgiu! // Bet atrodo paprasciau nei žemiau esantis metodas :D Aš už šita varianta :D Mano apgirtusiom akim šitas priimtinesnis
+              var xx = (from a in k
+                        let trukme = (from b in p	
+                        							where b.numeris == a.numeris && b.kelinys == 1
+                        							select b.trukme).Sum()
+                        where trukme >= 5
+                        select new { pavarde = a.pavarde, vardas = a.vardas, numeris = a.numeris, praleistasLaikas = trukme })
+                        orderby trukme descending;
+    
+    
+  ///Kitas variantas:
+var sarasas = p.Where(eil => eil.kelinys == 1) 
+               .GroupBy(eil => numeris)                     //Sugrupuojame protokolu sarasa i grupes pagal zaidejo numeri
+               .Select(group => new {                       //Is kiekvienos gautos grupes sudedam trukmes
+                                  Numeris=group.key, 
+                                  BendraTrukme=group.Sum(eil => eil.trukme)
+                                } 
+                )
+                .Where(pinfo => pinfo.BendraTrukme >= 5)    //Ismetam visus kurie nebuvo 5 minutes
+                .Join(k,					 	//antras sarasas su kuriuo joininam
+                      pinfo => pinfo.numeris,	 	      //pirmojo saraso raktinis elementas, pagal kuri joininam
+                      zaidejas => zaidejas.numeris,		//antrojo saraso raktinis elementas, pagal kuri joininam
+                      (pinfo,zaidejas) => new {             //isrenkama reikalinga informacija is abieju sujungtu saraso eiluciu (tiek is pinfo, tiek is zaidejas galim imti info)
+                                            Vardas=zaidejas.vardas,
+                                            Pavarde=zaidejas.pavarde,
+                                            Numeris=zaidejas.numeris,
+                                            Laikas=pinfo.BendraTrukme
+                                          }
+               )
+                .OrderByDescending(eil => eil.Laikas)
+                .Thenby(eil => eil.Pavarde);  
+    /// kaip toks variantas? //Geriausias vidurinis :-D Bet ir šis irgi variantas :-)  :)))
+    // graziai issisukta nuo join, saunuolis kazkas :D gera mintis siaip, turetu veikti.
+    // Du kanistrus alaus????
+    var atrinkti = p.Where(a => a.kelinys == 1).GroupBy(a => a.numeris)
+                .Select(a => new
+                {
+                    numeris = a.Key,
+                    laikas = a.Sum(t => t.trukme),
+                    pavarde = k.Where(z => z.numeris == a.Key).Select(z => z.pavarde),
+                    vardas = k.Where(z => z.numeris == a.Key).Select(z => z.vardas)
+                })
+                    .Where(a => a.laikas >= 5).OrderByDescending(a => a.laikas);
+///////////////////////////////////////////////////////////////////
+    
+    
+    var sarasas = p.Where(eil => eil.kelinys == 1) 
+               .GroupBy(eil => numeris)                     //Sugrupuojame protokolu sarasa i grupes pagal zaidejo numeri
+               .Select(group => new {                       //Is kiekvienos gautos grupes sudedam trukmes
+                                  Numeris=group.key, 
+                                  BendraTrukme=group.Sum(eil => eil.trukme)
+                                } 
+                )
+                .Where(pinfo => pinfo.BendraTrukme >= 5)    //Ismetam visus kurie nebuvo 5 minutes
+                .Join(k,					 	//antras sarasas su kuriuo joininam
+                      pinfo => pinfo.numeris,	 	      //pirmojo saraso raktinis elementas, pagal kuri joininam
+                      zaidejas => zaidejas.numeris,		//antrojo saraso raktinis elementas, pagal kuri joininam
+                      (pinfo,zaidejas) => new {             //isrenkama reikalinga informacija is abieju sujungtu saraso eiluciu (tiek is pinfo, tiek is zaidejas galim imti info)
+                                            Vardas=zaidejas.vardas,
+                                            Pavarde=zaidejas.pavarde,
+                                            Numeris=zaidejas.numeris,
+                                            Laikas=pinfo.BendraTrukme
+                                          }
+               )
+                .OrderByDescending(eil => eil.Laikas)
+                .Thenby(eil => eil.Pavarde);

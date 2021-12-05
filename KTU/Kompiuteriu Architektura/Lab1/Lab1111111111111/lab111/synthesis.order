@@ -1,0 +1,10 @@
+i<>.\src\ctrl.vhd
+i<>.\src\cnt.vhd
+i<>.\src\top_tb.vhd
+i<>.\src\rom.vhd
+i<>.\src\mux.vhd
+i<>.\src\alu_s.vhd
+i<>.\src\top.vhd
+i<>.\src\reg.vhd
+i<>.\src\flg.vhd
+i<>.\src\TestBench\top_TB.vhd

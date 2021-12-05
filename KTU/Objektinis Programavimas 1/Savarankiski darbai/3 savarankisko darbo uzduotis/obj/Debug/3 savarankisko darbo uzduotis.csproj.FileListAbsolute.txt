@@ -1,0 +1,8 @@
+D:\TadasL\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\bin\Debug\3 savarankisko darbo uzduotis.exe.config
+D:\TadasL\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\obj\Debug\3 savarankisko darbo uzduotis.csprojResolveAssemblyReference.cache
+E:\KTU projektai\Visual Studio stuff\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\bin\Debug\3 savarankisko darbo uzduotis.exe.config
+E:\KTU projektai\Visual Studio stuff\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\obj\Debug\3 savarankisko darbo uzduotis.csprojResolveAssemblyReference.cache
+E:\KTU projektai\Visual Studio stuff\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\bin\Debug\3 savarankisko darbo uzduotis.exe
+E:\KTU projektai\Visual Studio stuff\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\bin\Debug\3 savarankisko darbo uzduotis.pdb
+E:\KTU projektai\Visual Studio stuff\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\obj\Debug\3 savarankisko darbo uzduotis.exe
+E:\KTU projektai\Visual Studio stuff\3 savarankisko darbo uzduotis\3 savarankisko darbo uzduotis\obj\Debug\3 savarankisko darbo uzduotis.pdb

@@ -1,0 +1,8 @@
+4
+~E 1 "./../../impl1/PostumioRegistras.vhd" 8 POSTUMIOREGISTRAS
+~A 1 "./../../impl1/PostumioRegistras.vhd" 32 SCHEMATIC
+~E 1 "./../../impl1/SpecializuotasRegistras.vhd" 8 SPECIALIZUOTASREGISTRAS
+~A 1 "./../../impl1/SpecializuotasRegistras.vhd" 30 SCHEMATIC
+~E 1 "./../src/TestBench/specializuotasregistras_TB.vhd" 8 specializuotasregistras_tb
+~A 1 "./../src/TestBench/specializuotasregistras_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/specializuotasregistras_TB.vhd" 128 testbench_for_specializuotasregistras

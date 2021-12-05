@@ -1,0 +1,45 @@
+timestamp=1495573126746
+
+[~A]
+ModifyID=3
+Version=74
+
+[decoder]
+A/beh=21|./../../KombinacineSchema.vhdl|12|1*1039
+BinI32/beh=3*0
+I=0*515
+I/beh=0*2139
+M=11|0|vd0|1495573083123|./../../KombinacineSchema.vhdl|0*193*0xfeddaf4bf33b56448dd7f758feb804578baf0957|0*424*0x23b75c12e3e89f2ef000564498faa8c2
+M/beh=21|0|vd0|1495573126482|./../../KombinacineSchema.vhdl|0*1528*0x71ffafc3c11c9e888ed35dddc3a949178285b278|0*2041*0x20116f55b147878295aeff36dce7fc50
+R=./../../KombinacineSchema.vhdl|4
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5b5fade5c44e27adecc486171142a1d226527262ddaa47cb266f3a3c4d9b973a1de78e94c503e570f631e82b1860f14b
+Version/beh=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|9feb3f2c68cdf0164b911d6478c8f692b9d0a7b3d27734fd07eb0ce1349939bd
+
+[decoder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/decoder_TB.vhd|9|1*2074
+BinI32/tb_architecture=3*683
+I=0*2741
+I/tb_architecture=I/TB_ARCHITECTURE 0*4973
+M=11|0|vd0|1495573126715|./../src/TestBench/decoder_TB.vhd|0*2468*0x7f1c1c61ece8c3be123094dc4a202276cc143163|0*2644*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vd0|1495573126717|./../src/TestBench/decoder_TB.vhd|0*2943*0x27a4f3f5e7a3beb199fd4f3614b8564ce1c2055e|0*4857*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/decoder_TB.vhd|6
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|c9cf02f7edfc0c3a34b4ed63ff4c6258c9f5c004114aeb36903c07c2be81ea2547699b5328ad185a3bed16320a2ffc2c
+Version/tb_architecture=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beac5c74dddbc96ebe44a3efb2ae3c08b8b
+
+[testbench_for_decoder]
+Configures=decoder_tb.TB_ARCHITECTURE
+E=1*3455
+I=0*5615
+M=2|0|vd0|1495573126730|./../src/TestBench/decoder_TB.vhd|0*5222*0x28f5aacd1dbf2aa6ad9e703b8af4e51eb1db38ff|0*5494*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/decoder_TB.vhd|105
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e51b67c925f751c216cdc063bdd26b5626124df351b0f7e1ca951a1580d905b7cf
+
+[~MFT]
+0=10|0work.mgf|5615|814
+1=2|1work.mgf|3455|1039
+3=1|3work.mgf|683|0
+
+[~U]
+decoder=11|0*0|
+decoder_tb=11|0*2342|
+testbench_for_decoder=TESTBENCH_FOR_decoder 2||

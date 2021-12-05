@@ -1,0 +1,44 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Tadas\\KTU\\SkaitmenineLogika\\LabNr1\\lab1\\synwork\\Laboratorinis1_lab1_comp.srs|-top|SCHEMA2|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\bin64\\c_vhdl.exe":1467759490
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\location.map":1467948194
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\std.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\std1164.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\numeric.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\arith.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1467759088
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\cae_library\\synthesis\\vhdl\\xp2.vhd":1376992808
+#CUR:"D:\\Tadas\\KTU\\SkaitmenineLogika\\LabNr1\\lab1\\Schema1.vhd":1488747883
+#CUR:"D:\\Program Files (x86)\\diamond\\3.8_x64\\synpbase\\lib\\lucent\\xp2.vhd":1467759226
+#CUR:"D:\\Tadas\\KTU\\SkaitmenineLogika\\LabNr1\\lab1\\Schema12.vhd":1488747883
+#CUR:"D:\\Tadas\\KTU\\SkaitmenineLogika\\LabNr1\\lab1\\Schema2.vhd":1488747883
+0 "D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd" vhdl
+1 "D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema1.vhd" vhdl
+2 "D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema12.vhd" vhdl
+3 "D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+
+# Dependency Lists (Users Of)
+0 3 2 1 
+1 -1
+2 -1
+3 -1
+
+# Design Unit to File Association
+arch work schema1 schematic 1
+module work schema1 1
+arch work schema12 schematic 2
+module work schema12 2
+arch work schema2 schematic 3
+module work schema2 3
+
+
+# Configuration files used

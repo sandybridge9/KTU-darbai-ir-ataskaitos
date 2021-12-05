@@ -1,0 +1,8 @@
+4
+~E 1 "./../../impl1/DviejuPakopuTrigeris.vhd" 8 DVIEJUPAKOPUTRIGERIS
+~A 1 "./../../impl1/DviejuPakopuTrigeris.vhd" 21 SCHEMATIC
+~E 1 "./../src/TestBench/dviejupakoputrigeris_TB.vhd" 8 dviejupakoputrigeris_tb
+~A 1 "./../src/TestBench/dviejupakoputrigeris_TB.vhd" 11 TB_ARCHITECTURE
+~E 1 "./../../impl1/StatinisTrigeris.vhd" 8 STATINISTRIGERIS
+~A 1 "./../../impl1/StatinisTrigeris.vhd" 20 SCHEMATIC
+~C 1 "./../src/TestBench/dviejupakoputrigeris_TB.vhd" 90 testbench_for_dviejupakoputrigeris

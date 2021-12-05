@@ -1,0 +1,60 @@
+Įvadas
+Karaliumi tarp paieškos sistemų jau daugiau nei dešimtmetį yra Google. Kompanijos comScore duomenimis, per 2012 metų paskutinius du mėnesius amerikiečių paieškos gigantas apdorojo apie 114,7 mlrd. užklausų – tai atitinka 65,2% pasaulinės paieškos sistemų rinkos.
+
+Analizė
+Kaip Google išmoko apdoroti šimtus petabaitų duomenų?
+Pagal apdorojamų duomenų kiekio rodiklį artimiausią konkurentą, Kinijos Baidu, Google lenkia mažiausiai aštuonis kartus. Tiesą sakant, psichologai ėmė vartoti netgi specialų terminas – Google Effect: šiuolaikiniam žmogui, pasirodo, lengviau ne įsiminti faktą, tačiau reikiamu momentu jį surasti Internete. 1 paveiksle pavaizduotas Google duomenų centras.
+Toks populiarumas reiškia, kad Google paieškos indeksų dydžiai net ne dideli, o sunkiai įsivaizduojamo dydžio. Dar ne visi suvokia, jog kai mes įvedame norimą užklausą į paieškos laukelį, tai kreipiamės į vieną didžiausių duomenų saugyklų visame pasaulyje. Dar įspūdingiau atrodo štai kas: tam, kad petabaituose informacijos būtų surastas atsakymas į mūsų klausimą, kompanijai Google užtenka sekundžių dalių. Štai jums Dideli Duomenys (Big Data) visu gražumu!
+"Google" būstinė darbuotojų akimis: kam ta alga, kai visko - šitiek ir nemokamai?
+Kada tie "Google" darbuotojai randa laiko dirbti, kai darbovietėje – šitiek pagundų? Du bangų baseinai, arkadinių kompiuterinių automatų galerijos, nemokamas gurmanų skoniui įtinkantis maistas, nemokami masažai ir daugybė visokių kitokių pramogų [1] [2] [3]. Nieko stebėtino, kad "Google" kas 25 sekundės sulaukia po norinčiojo įsidarbinti gyvenimo aprašymą. O bent pasipraktikuoti šioje kompanijoje nori daugiau kaip 40 tūkst. kandidatų.
+Vienoje iš didžiausių pasaulio korporacijų nėra dirbama be atvangos ir be poilsio bei pramogų. "Google" darbuotojams pailsėti ir "pravėdinti galvą" po susirinkimų tikrai yra kur. Triskart per dieną patiekiamas nemokamas maistas paskatino darbuotojus įvesti sąvoką "Google 15". Penkiolika – tai vidutinis svarais priaugamo svorio skaičius (15 svarų – apie 7 kg).
+Tačiau "Google" suteikia galimybę savo darbuotojams ne tik tenkinti apetito poreikius, bet ir rūpintis sveikata. Masažai ir moderniausios sporto salės atsipalaidavimui ir sportui. Apranga "Google" būstinėje – pati neformaliausia: džinsai, marškinėliai, džemperiai ir pan. Nieko stebėtino, kodėl "Google" patenka į 25 geidžiamiausių pasaulio darbdavių sarašą?
+"Sugalvoti kokią nors lengvatą ar privilegiją, kurios "Google" nesiūlo savo darbuotojams, yra beveik neįmanoma, - "CNN Money" kalbėjo "Fortune Magazine" žurnalistas Adamas Lašinskis (Adam Lashinsky). – Tai tokia darbo vieta, kur tu, reikia pripažinti, privalai dirbti, bet darai tai žinodamas, kad taip pat pasiutusiai gerai praleisi laiką." (2, 3, 4, 5 pav.).
+Kokių dar privilegijų ir paslaugų gauna "Google" darbuotojai? Nemokama kirpykla, nemokama skalbykla ir skalbinių lyginimas, vaikų priežiūra, naudojimasis automobiliais. Būstinėje darbuotojų sveikata rūpinasi penki gydytojai. Viskas – nemokamai. Į darbą ten gali atsitempti net savo šunį.
+"Su savo šefais pajuokauju, kad eičiau ten ir dirbčiau kiekvieną mielą dieną net ir jei jie man nemokėtų atlyginimo, - atvirauja ilgametė "VP of Search and New Products Division" darbuotoja Marisa Mejer (Marissa Mayer). – O ką – maistas nemokamai, automobilis ir degalai – nemokamai, medicininė pagalba – nemokamai, vaikų priežiūra – nemokamai, galybė pramogų – nemokamai."
+"Kiekvienas dirba iš visos širdies, bet ir linksminasi iš visos širdies – ir visi laimingi, - apibendrino "Google" programinės įrangos inžinierė Korin Anderson (Corin Anderson).
+"Atmosfera čia – visai kaip koledže", - tvirtina "Google Global Food" vadybininkas Džonas Dikmanas (John Dickman).
+"Čia nėra jokios įtampos – visi atsipalaidavę. Visi mėgaujasi gyvenimu. "Gūgliai" – nepaprastai smalsūs, kūrybingi, išmoningi ir išradingi žmogeliukai", - vardija Laslas Apbokas (Laszlo Upbock) iš "Google People Operations".
+"Kad jūs žinotumėt, kokia stimuliuojanti aplinka yra "Google" būstinė, - pabrėžia A. Lašinskis. – Jie ne tik kuria stogą raunančius produktus – jie labai rimtai mąsto, kaip užkariauti savo darbuotojų protus. Jei nori dirbti, dabar negalėčiau įsivaizduoti nuostabesnės darbo vietos nei yra "Google".
+Kompaniją "Google" Laris Peidžas ( Larry Page) ir Sergejus Brinas (Sergey Brin) įkūrė 1998 m. rugsėjį. Dabar 54 mlrd. JAV dolerių vertės kompanija visame pasaulyje turi daugiau kaip 30 tūkst. darbuotojų.
+Įdomesni faktai
+1 lentelėje pateikima keletą įdomesnių faktų apie Google.
+1 lentelė. Įdomūs faktai apie Google
+Pavadinimas	Paaiškinimas
+Pirmasis pranešimas Tweeter’yje	2009 metų vasarį išsiųstas pranešimas atrodė taip: “I’m 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010.”
+Tiems, kam dvejetainė sistema yra “tamsus miškas”, išduosime, kad tai reiškia gerai žinomą frazę – “I’m feeling lucky.”
+Google nuomojasi ožkas	Visa tai tam, kad milžiniškoje Google būstinės teritorijoje apmažėtų piktžolių. 200 ožkų, piemens ir kolio kompanija ne tik pilnai pakeičia žoliapjovę, bet ir puikiai paįvairina kompanijos gamtovaizdį.
+Google poveikis kalbai
+Nors lietuvių kalbos žodyne dar nėra žodžio “gūglinti”, tačiau Oksfordo anglų kalbos žodyne žodis “google” įrašytas jau nuo 2006 metų. Šis veiksmažodis pasak žodyno reiškia “vykdyti paiešką”.
+Individualios užduotėlės
+Parašykite makrokomandą, kurios pagalba būtų galima suskaičiuoti išlaidų vidurkį geltoname langelyje (2 lentelė).
+2 lentelė. Bendras išlaidų vidurkis
+Išlaidos transportui	Išlaidos maistui	Išlaidos būsto nuomai	Išlaidų vidurkis
+75	400	250	 
+
+120	300	300	 
+
+
+
+Parašykite formulę: ∑(k=0)^n x^k a^(n-k) 
+
+Pakeitimų sekimas
+Šio skyriaus tikslas yra sekti dokumente atliktus pakeitimus, bei rašyti komentarus .
+
+Išvados
+Tai žmonės daro „Google“ tokia įmone, kokia ji yra. Nors „Google“ darbuotojus vienija bendri įmonės tikslai ir vizijos, jie yra įvairių profesijų atstovai ir kalba daugeliu kalbų, atspindėdami pasaulinę auditoriją, kurią aptarnauja. Kai nedirba, „Google“ darbuotojai skiria laiką pomėgiams: nuo važinėjimo dviračiu iki bitininkystės, nuo lėkščiasvydžio iki fokstroto.
+
+
+Dalykinė rodyklė
+ 
+B
+Baidu, 6
+G
+Google, 2, 4, 5, 6, 7, 8, 9, 10, 11
+Gūgliai, 8
+ 
+
+Literatūra
+[1] 	S. Levy, In The Plex: How Google Thinks, Works, and Shapes Our Lives, Simon & Schuster, 2011. 
+[2] 	D. Edwards, I'm Feeling Lucky: The Confessions of Google Employee Number 59, Houghton Mifflin Harcourt, 2011. 
+[3] 	W. Poundstone, Are You Smart Enough to Work at Google?: Trick Questions, Zen-like Riddles, Insanely Difficult Puzzles, and Other Devious Interviewing Techniques You Need to Know to Get a Job Anywhere in the New Economy, Little, Brown and Company, 2012. 

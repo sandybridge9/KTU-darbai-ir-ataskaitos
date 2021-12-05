@@ -1,0 +1,70 @@
+Synopsys HDL Compiler, version comp2016q2rc, Build 192R, built Jul  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q2rc, Build 192R, built Jul  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":8:7:8:13|Top entity is set to SCHEMA2.
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema1.vhd changed - recompiling
+File D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\lucent\xp2.vhd changed - recompiling
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema12.vhd changed - recompiling
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema1.vhd changed - recompiling
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema12.vhd changed - recompiling
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd changed - recompiling
+@N: CD630 :"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":8:7:8:13|Synthesizing work.schema2.schematic.
+@W: CD638 :"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":21:10:21:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":22:10:22:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":65:10:65:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":1324:10:1324:12|Synthesizing work.or3.syn_black_box.
+Post processing for work.or3.syn_black_box
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":84:10:84:13|Synthesizing work.and4.syn_black_box.
+Post processing for work.and4.syn_black_box
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"D:\Program Files (x86)\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd":1033:10:1033:14|Synthesizing work.mux41.syn_black_box.
+Post processing for work.mux41.syn_black_box
+Post processing for work.schema2.schematic
+@W: CL168 :"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":134:3:134:5|Pruning instance I20 -- not in use ... 
+@W: CL168 :"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":132:3:132:5|Pruning instance I19 -- not in use ... 
+@W: CL168 :"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":128:3:128:5|Pruning instance I17 -- not in use ... 
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 05 23:04:49 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q2rc, Build 192R, built Jul  5 2016
+@N|Running in 64-bit mode
+File D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 05 23:04:49 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 05 23:04:49 2017
+
+###########################################################]

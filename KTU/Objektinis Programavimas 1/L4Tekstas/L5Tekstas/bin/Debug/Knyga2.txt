@@ -1,0 +1,3 @@
+﻿Initialize queue to null, which is really just a compiler trick that says "I'll figure out my own uninitialized variables, thank you very much".
+It's a useful trick, but I don't like it in this case - you have too many if branches to easily check that you're doing it properly.
+If you really wanted to do it this way, something like this would be clearer Galima įterpti tik minimalų būtiną tarpų skaičių.

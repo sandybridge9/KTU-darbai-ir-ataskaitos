@@ -1,0 +1,13 @@
+﻿Zemaitis;Kazimieras;24fa;16;
+Petraitis;Kazimieras;24fa;2;
+Keturakis;Kazimieras;24fa;2;
+Jonaitis;Kazimieras;25fb;4;
+Zaliasis;Kazimieras;26fc;8;
+Mentaitis;Kazimieras;27fd;1;
+Brigaitis;Kazimieras;29ff;12;
+Ausraitis;Kazimieras;28fe;7;
+Kinderis;Kazimieras;25fb;55;
+Karaitis;Kazimieras;29ff;13;
+Zvaigzdaitis;Kazimieras;25fb;5;
+Selmaitis;Kazimieras;24fa;9;
+Vienaitis;Kazimieras;29ff;3;

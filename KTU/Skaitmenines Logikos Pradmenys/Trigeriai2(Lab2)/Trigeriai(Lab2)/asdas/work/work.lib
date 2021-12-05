@@ -1,0 +1,57 @@
+timestamp=1496600923543
+
+[~A]
+ModifyID=6
+Version=74
+
+[dviejupakoputrigeris]
+A/schematic=A/SCHEMATIC 21|./../../impl1/DviejuPakopuTrigeris.vhd|21|1*14511
+BinI32/schematic=3*1688
+I=0*776
+I/schematic=I/SCHEMATIC 0*11239
+M=11|0|vd0|1496600743728|./../../impl1/DviejuPakopuTrigeris.vhd|0*233*0x5d14da33f1419c48c7a40375fdbb7e5710715361|0*664*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1496600923321|./../../impl1/DviejuPakopuTrigeris.vhd|0*5879*0x6485c89cfbea771a942ce2a61a87a094d0358184|0*7508*0x20116f55b147878295aeff36dce7fc50
+R=./../../impl1/DviejuPakopuTrigeris.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c9b546faa1229dc804b9b92032273645cb81709f44a74360d8b7ca30f73dc59181ede7d6f671cbab22a1bc79e0189074
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d76343cee369af24a5de749a5fa7e21294
+
+[dviejupakoputrigeris_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/dviejupakoputrigeris_TB.vhd|11|1*18903
+BinI32/tb_architecture=3*1972
+I=0*8568
+I/tb_architecture=I/TB_ARCHITECTURE 0*11638
+M=11|0|vd0|1496600840129|./../src/TestBench/dviejupakoputrigeris_TB.vhd|0*8184*0x1639d0db9898a86f6175eae31edc04c3eb961496|0*8445*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vd0|1496600923527|./../src/TestBench/dviejupakoputrigeris_TB.vhd|0*8820*0x2f4b6a380545036ebcf548857ed2929ec7ffa9a3|0*10045*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/dviejupakoputrigeris_TB.vhd|8
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|c9b546faa1229dc804b9b92032273645d0a9d017e0cada525f10c6483c3301ab26527262ddaa47cb266f3a3c4d9b973a6b1cb00dab5fdd2a048151390531b2db
+Version/tb_architecture=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea8d26a3a10e7f22fbcc29dea23bcfc8f3
+
+[statinistrigeris]
+A/schematic=A/SCHEMATIC 21|./../../impl1/StatinisTrigeris.vhd|20|1*4396
+BinI32/schematic=3*388
+I=0*3895
+I/schematic=I/SCHEMATIC 0*5484
+M=11|0|vd0|1496600743942|./../../impl1/StatinisTrigeris.vhd|0*3398*0x968feb757718dd297ccd9ec8ec6115e7daf70621|0*3791*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1496600743946|./../../impl1/StatinisTrigeris.vhd|0*4140*0x08a942b635491057e904ca37f9ad1ff6e4bde147|0*5367*0x9065d32a2e40e13794b29a2731812845
+R=./../../impl1/StatinisTrigeris.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|69de4f625242b4e941d0207199c32990820439317233de6239b2182ba29948f4192fd8bd653845355aa72ea79e50f919
+Version/schematic=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7c05e656f32bc0fa741d8ff7a90e19337
+
+[testbench_for_dviejupakoputrigeris]
+Configures=dviejupakoputrigeris_tb.TB_ARCHITECTURE
+E=1*20722
+I=0*11958
+M=2|0|vd0|1496600923530|./../src/TestBench/dviejupakoputrigeris_TB.vhd|0*10507*0xfdfb671ede3bb93dcc8d8ba6c7c300f02e61ca43|0*10889*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/dviejupakoputrigeris_TB.vhd|90
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5a47eb85dcc5e656f79fe06b3a7fb3e347fd0d902142ec8d2d156fa1e6bebfa97fe80a078bd8096f8e6739857f3e8ce61
+
+[~MFT]
+0=4|0work.mgf|11958|3062
+1=4|1work.mgf|20722|11111
+3=2|3work.mgf|1972|1330
+
+[~U]
+dviejupakoputrigeris=DVIEJUPAKOPUTRIGERIS 11|0*0|
+dviejupakoputrigeris_tb=11|0*8032|
+statinistrigeris=STATINISTRIGERIS 11|0*3178|
+testbench_for_dviejupakoputrigeris=TESTBENCH_FOR_dviejupakoputrigeris 2||

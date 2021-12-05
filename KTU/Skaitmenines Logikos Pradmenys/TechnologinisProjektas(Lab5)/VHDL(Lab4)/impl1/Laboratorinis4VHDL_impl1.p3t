@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Laboratorinis4VHDL_impl1.log"
+-o "Laboratorinis4VHDL_impl1.csv"
+-pr "Laboratorinis4VHDL_impl1.prf"

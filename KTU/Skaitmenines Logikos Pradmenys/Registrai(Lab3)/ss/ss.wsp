@@ -1,0 +1,34 @@
+[COMPILESTATUS|.\..\impl1\PostumioRegistras.vhd]
+FileTimeLow=30593866
+Status=Compiled
+
+[COMPILESTATUS|.\..\impl1\SpecializuotasRegistras.vhd]
+FileTimeLow=30593866
+Status=Compiled
+
+[COMPILESTATUS|.\src\TestBench\specializuotasregistras_TB.vhd]
+FileTimeLow=30593866
+Status=Compiled
+
+[COMPILESTATUS|.\src\TestBench\specializuotasregistras_TB_runtest.do]
+FileTimeLow=30593866
+Status=Modified
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\ss.adf|]
+Path=/specializuotasregistras_tb
+
+[Gui config]
+RunFor=100 ns
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\TestBench/specializuotasregistras_TB.vhd|]
+CurrentLine=123
+CurrentColumn=13
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////xQBAAB6AAAAgAcAACQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+

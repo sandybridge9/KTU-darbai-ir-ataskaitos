@@ -1,0 +1,15 @@
+Synopsys VHDL Compiler, version comp2016q2rc, Build 192R, built Jul  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Schema2.vhd":8:7:8:13|Top entity is set to SCHEMA2.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Mar 05 23:04:48 2017
+
+###########################################################]

@@ -1,0 +1,17 @@
+[Files List]
+W:\TADAS\KTU Programos\diamond\3.9_x64\active-hdl\vlib\std/src/standard.vhd=S
+W:\TADAS\KTU Programos\diamond\3.9_x64\active-hdl\vlib\std/src/textio.vhd=S
+W:\TADAS\KTU Programos\diamond\3.9_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+W:\TADAS\KTU Programos\diamond\3.9_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+W:\TADAS\KTU Programos\diamond\3.9_x64\active-hdl\vlib\ieee/src/numeric_std.vhdl=S
+W:\TADAS\KTU Programos\diamond\3.9_x64\active-hdl\vlib\ieee/src/numeric_std-body.vhdl=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/flg.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/reg.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/cnt.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/rom.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/alu_s.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/mux.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/ctrl.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/top.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/top_tb.vhd=S
+W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111/src/TestBench/top_TB.vhd=S

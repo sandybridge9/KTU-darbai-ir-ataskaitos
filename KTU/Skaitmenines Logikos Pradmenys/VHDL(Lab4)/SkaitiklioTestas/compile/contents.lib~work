@@ -1,0 +1,6 @@
+3
+~E 1 "./../../Skaitiklis.vhdl" 5 counter
+~A 1 "./../../Skaitiklis.vhdl" 20 behv
+~E 1 "./../src/TestBench/counter_TB.vhd" 7 counter_tb
+~A 1 "./../src/TestBench/counter_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/counter_TB.vhd" 77 testbench_for_counter

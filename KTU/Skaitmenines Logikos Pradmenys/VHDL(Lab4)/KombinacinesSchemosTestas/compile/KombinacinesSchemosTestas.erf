@@ -1,0 +1,4 @@
+MESSAGE "File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\KombinacineSchema.vhdl" 
+MESSAGE "Compile Entity "decoder"" 
+MESSAGE "Compile Architecture "beh" of Entity "decoder"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]" 

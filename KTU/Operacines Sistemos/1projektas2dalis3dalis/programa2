@@ -1,0 +1,18 @@
+#!/bin/sh
+if test $# -eq 2
+then
+	if [ -d $1 ]
+	then
+		if [ -f $2 ]
+		then
+			mv $2 $1
+			echo "Sekmingai perkelta i kita aplanka "
+		else
+			echo "Antrasis argumentas nera failas "
+		fi
+	else
+		echo "Pirmasis argumentas nera aplankas "
+	fi
+else
+	echo "Netinkamas argumentu skaicius "
+fi

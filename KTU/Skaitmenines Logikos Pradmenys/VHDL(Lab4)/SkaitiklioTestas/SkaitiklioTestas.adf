@@ -1,0 +1,46 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+SkaitiklioTestas=.\SkaitiklioTestas\SkaitiklioTestas.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+SkaitiklioTestas=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\Skaitiklis.vhdl=-1
+TestBench/counter_TB.vhd=-1
+TestBench/counter_TB_runtest.do=-1
+[Files.Data]
+.\..\Skaitiklis.vhdl=VHDL Source Code
+.\src\TestBench\counter_TB.vhd=VHDL Test Bench
+.\src\TestBench\counter_TB_runtest.do=Macro
+[Groups]
+TestBench=1

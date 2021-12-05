@@ -1,0 +1,3 @@
+#!/bin/sh
+komanda=`who am i`
+echo "Jusu vardas, grupe ir numeris yra: " $komanda

@@ -1,0 +1,11 @@
+#Start recording tcl command: 5/21/2017 18:15:08
+#Project Location: D:/KTU/SkaitmenineLogika/Trigeriai; Project name: LaboratorinisNr2
+prj_project new -name "LaboratorinisNr2" -impl "impl1" -dev LFXP2-5E-6TN144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai/StatinisTrigeris.sch"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai/StatinioTrigerioTestas/StatinioTrigerioTestas.spf"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai/DviejuPakopuTrigeris.sch"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai/DviejuPakopuTrigerioTestas/DviejuPakopuTrigerioTestas.spf"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai/DviejuPakopuTrigerioTestas/DviejuPakopuTrigerioTestas2/DviejuPakopuTrigerioTestas2.spf"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai/DviejuPakopuTrigerioTestas3/DviejuPakopuTrigerioTestas3.spf"
+#Stop recording: 5/21/2017 19:12:27

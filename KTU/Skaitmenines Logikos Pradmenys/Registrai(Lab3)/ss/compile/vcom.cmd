@@ -1,0 +1,1 @@
+-w -erf D:/KTU/SkaitmenineLogika/Registrai(Lab3)/ss/compile/ss.erf -d D:/KTU/SkaitmenineLogika/Registrai(Lab3)/ss/compile -s D:/KTU/SkaitmenineLogika/Registrai(Lab3)/ss/library.cfg -j D:/KTU/SkaitmenineLogika/Registrai(Lab3)/ss/projlib.cfg -work work -O3 -e 100 -work work -2002 D:/KTU/SkaitmenineLogika/Registrai(Lab3)/ss/src/TestBench/specializuotasregistras_TB.vhd 

@@ -1,0 +1,65 @@
+--------+--------------------+-----+------
+|El. Nr.|Vardas, Pavarde     |Gija |Alga |
+
+--------+--------------------+-----+------
+|1      |Antanas Kazinskas   |1    |1.2  |
+
+|2      |Jonas Sermuksnis    |1    |1.2  |
+
+|3      |Finas Tegusigalpas  |1    |1.2  |
+
+|4      |Kraulas Kimono      |1    |1.2  |
+
+|5      |Kirilas Malakovas   |1    |1.2  |
+
+|6      |Zigmas Stasaitis    |1    |1.2  |
+
+|7      |Finas Tegusigalpas  |3    |1.2  |
+
+|8      |Kraulas Kimono      |3    |1.2  |
+
+|9      |Kirilas Malakovas   |3    |1.2  |
+
+|10     |Zigmas Stasaitis    |3    |1.2  |
+
+|11     |Filmas Kurpe        |3    |1.2  |
+
+|12     |Kolass Kalantas     |3    |1.2  |
+
+|13     |Filmas Kurpe        |2    |1.2  |
+
+|14     |Kolass Kalantas     |2    |1.2  |
+
+|15     |Furas Furas         |2    |1.2  |
+
+|16     |Omaras              |2    |1.2  |
+
+|17     |Antanas Kazinskas   |2    |1.2  |
+
+|18     |Jonas Sermuksnis    |2    |1.2  |
+
+|19     |Kirilas Malakovas   |5    |1.2  |
+
+|20     |Zigmas Stasaitis    |5    |1.2  |
+
+|21     |Filmas Kurpe        |5    |1.2  |
+
+|22     |Kolass Kalantas     |5    |1.2  |
+
+|23     |Furas Furas         |5    |1.2  |
+
+|24     |Omaras              |5    |1.2  |
+
+|25     |Furas Furas         |4    |1.2  |
+
+|26     |Omaras              |4    |1.2  |
+
+|27     |Antanas Kazinskas   |4    |1.2  |
+
+|28     |Jonas Sermuksnis    |4    |1.2  |
+
+|29     |Finas Tegusigalpas  |4    |1.2  |
+
+|30     |Kraulas Kimono      |4    |1.2  |
+
+------------------------------------------

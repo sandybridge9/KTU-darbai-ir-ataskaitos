@@ -1,0 +1,394 @@
+
+map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 6 -oc Commercial   "Laboratorinis4VHDL_impl1.ngd" -o "Laboratorinis4VHDL_impl1_map.ncd" -pr "Laboratorinis4VHDL_impl1.prf" -mp "Laboratorinis4VHDL_impl1.mrp" -lpf "C:/Users/tadlau/Desktop/VHDL(Lab4)/impl1/Laboratorinis4VHDL_impl1_synplify.lpf" -lpf "C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf"             
+map:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: Laboratorinis4VHDL_impl1.ngd
+   Picdevice="LFXP2-5E"
+
+   Pictype="TQFP144"
+
+   Picspeed=6
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFXP2-5ETQFP144, Performance used: 6.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(3): Semantic error in &quot;LOCATE COMP &quot;clock&quot; SITE &quot;50&quot; ;&quot;: " arg1="clock" arg2="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf" arg3="3"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(4): Semantic error in &quot;LOCATE COMP &quot;clear&quot; SITE &quot;53&quot; ;&quot;: " arg1="clear" arg2="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf" arg3="4"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(5): Semantic error in &quot;LOCATE COMP &quot;load&quot; SITE &quot;55&quot; ;&quot;: " arg1="load" arg2="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf" arg3="5"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(18): Semantic error in &quot;LOCATE COMP &quot;p&quot; SITE &quot;45&quot; ;&quot;: " arg1="p" arg2="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf" arg3="18"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(25): Semantic error in &quot;IOBUF PORT &quot;clear&quot; PULLMODE=UP IO_TYPE=LVCMOS25 ;&quot;: " arg1="clear" arg2="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf" arg3="25"  />
+    <postMsg mid="1104062" type="Warning" dynamic="2" navigation="0" arg0="" arg1="5 semantic errors"  />
+Loading device for application map from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="rst_c"  />
+
+
+
+Design Summary:
+   Number of registers:      7 out of  3864 (0%)
+      PFU registers:            7 out of  3564 (0%)
+      PIO registers:            0 out of   300 (0%)
+   Number of SLICEs:        17 out of  2376 (1%)
+      SLICEs as Logic/ROM:     17 out of  2376 (1%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:          0 out of  2376 (0%)
+   Number of LUT4s:         21 out of  4752 (0%)
+      Number used as logic LUTs:         21
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 18 out of 100 (18%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+   Number of clocks:  1
+     Net clk_c: 4 loads, 4 rising, 0 falling (Driver: PIO clk )
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net rst_c merged into GSR:  7
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net A0_c: 14 loads
+     Net A1_c: 13 loads
+     Net Qreg[6]: 5 loads
+     Net Qreg[2]: 3 loads
+     Net Qreg[3]: 3 loads
+     Net Qreg[4]: 3 loads
+     Net Qreg[5]: 3 loads
+     Net Qreg[0]: 2 loads
+     Net Qreg[1]: 2 loads
+     Net Data_c[5]: 1 loads
+    <postMsg mid="51001230" type="Warning" dynamic="1" navigation="0" arg0="C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf"  />
+ 
+
+   Number of warnings:  8
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 57 MB
+
+Dumping design to file Laboratorinis4VHDL_impl1_map.ncd.
+
+mpartrce -p "Laboratorinis4VHDL_impl1.p2t" -f "Laboratorinis4VHDL_impl1.p3t" -tf "Laboratorinis4VHDL_impl1.pt" "Laboratorinis4VHDL_impl1_map.ncd" "Laboratorinis4VHDL_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "Laboratorinis4VHDL_impl1_map.ncd"
+Mon May 29 14:24:52 2017
+
+PAR: Place And Route Diamond (64-bit) 3.8.0.115.3.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/tadlau/Desktop/VHDL(Lab4)/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF Laboratorinis4VHDL_impl1_map.ncd Laboratorinis4VHDL_impl1.dir/5_1.ncd Laboratorinis4VHDL_impl1.prf
+Preference file: Laboratorinis4VHDL_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Laboratorinis4VHDL_impl1_map.ncd.
+Design name: spec_register
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 6
+Loading device for application par from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   GSR                1/1           100% used
+   PIO (prelim)      18/174          10% used
+                     18/100          18% bonded
+   SLICE             17/2376         <1% used
+
+
+
+Number of Signals: 39
+Number of Connections: 81
+
+Pin Constraint Summary:
+   18 out of 18 pins locked (100% locked).
+
+No signal is selected as primary clock.
+
+No signal is selected as DCS clock.
+
+No signal is selected as secondary clock.
+
+Signal rst_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+
+Finished Placer Phase 0.  REAL time: 3 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 10922.
+Finished Placer Phase 1.  REAL time: 4 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  10895
+Finished Placer Phase 2.  REAL time: 4 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  CLKDIV     : 0 out of 2 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+
+  PRIMARY  : 0 out of 8 (0%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 0 out of 4 (0%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   18 out of 174 (10.3%) PIO sites used.
+   18 out of 100 (18.0%) bonded PIO sites used.
+   Number of PIO comps: 18; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+----------------+------------+------------+------------+
+| 0        | 0 / 20 (  0%)  | -          | -          | -          |
+| 1        | 0 / 6 (  0%)   | -          | -          | -          |
+| 2        | 0 / 18 (  0%)  | -          | -          | -          |
+| 3        | 0 / 4 (  0%)   | -          | -          | -          |
+| 4        | 0 / 8 (  0%)   | -          | -          | -          |
+| 5        | 11 / 18 ( 61%) | 2.5V       | -          | -          |
+| 6        | 7 / 8 ( 87%)   | -          | -          | -          |
+| 7        | 0 / 18 (  0%)  | -          | -          | -          |
++----------+----------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3
+# of MULT36X36B                
+# of MULT18X18B                
+# of MULT18X18MACB             
+# of MULT18X18ADDSUBB          
+# of MULT18X18ADDSUBSUMB       
+# of MULT9X9B                  
+# of MULT9X9ADDSUBB            
+# of MULT9X9ADDSUBSUMB         
+
+Total placer CPU time: 2 secs 
+
+Dumping design to file Laboratorinis4VHDL_impl1.dir/5_1.ncd.
+
+
+-----------------------------------------------------------------
+INFO - par: ASE feature is off due to non timing-driven settings.  
+-----------------------------------------------------------------
+
+0 connections routed; 81 unrouted.
+Starting router resource preassignment
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=clk_c loads=4 clock_loads=4"  />
+
+Completed router resource preassignment. Real time: 6 secs 
+
+Start NBR router at 14:24:58 05/29/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 14:24:58 05/29/17
+
+Start NBR section for initial routing at 14:24:58 05/29/17
+Level 4, iteration 1
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 14:24:58 05/29/17
+Level 4, iteration 1
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
+Level 4, iteration 2
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
+
+Start NBR section for re-routing at 14:24:58 05/29/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 6 secs 
+
+Start NBR section for post-routing at 14:24:58 05/29/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : <n/a>
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=clk_c loads=4 clock_loads=4"  />
+
+Total CPU time 3 secs 
+Total REAL time: 6 secs 
+Completely routed.
+End of route.  81 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file Laboratorinis4VHDL_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Worst  slack<hold /<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold /<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 4 secs 
+Total REAL time to completion: 7 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "Laboratorinis4VHDL_impl1.t2b" -w "Laboratorinis4VHDL_impl1.ncd" -jedec -e -s "C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.sec" -k "C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.bek" "Laboratorinis4VHDL_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.8.0.115.3
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Laboratorinis4VHDL_impl1.ncd.
+Design name: spec_register
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFXP2-5E
+Package:     TQFP144
+Performance: 6
+Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.42.
+Performance Hardware Data Status:   Final          Version 11.5.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Laboratorinis4VHDL_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     TAG_MEMORY  |                       NORMAL**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "Laboratorinis4VHDL_impl1.jed".

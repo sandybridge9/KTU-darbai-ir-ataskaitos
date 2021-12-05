@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasTestas\src\TestBench\spec_register_TB.vhd" 
+MESSAGE "Compile Entity "spec_register_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_spec_register"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

@@ -1,0 +1,6 @@
+D:\TadasL\2 savarankisko darbo uzduotis\2 savarankisko darbo uzduotis\bin\Debug\2 savarankisko darbo uzduotis.exe.config
+D:\TadasL\2 savarankisko darbo uzduotis\2 savarankisko darbo uzduotis\bin\Debug\2 savarankisko darbo uzduotis.exe
+D:\TadasL\2 savarankisko darbo uzduotis\2 savarankisko darbo uzduotis\bin\Debug\2 savarankisko darbo uzduotis.pdb
+D:\TadasL\2 savarankisko darbo uzduotis\2 savarankisko darbo uzduotis\obj\Debug\2 savarankisko darbo uzduotis.csprojResolveAssemblyReference.cache
+D:\TadasL\2 savarankisko darbo uzduotis\2 savarankisko darbo uzduotis\obj\Debug\2 savarankisko darbo uzduotis.exe
+D:\TadasL\2 savarankisko darbo uzduotis\2 savarankisko darbo uzduotis\obj\Debug\2 savarankisko darbo uzduotis.pdb

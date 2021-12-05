@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "iveskite a ir b reiksmes"
+read a b
+v1=$((a*b))
+echo "a * b: " $v1
+v2=$((a/b))
+echo "a / b: " $v2
+v3=$((a%b))
+echo "a % b: " $v3

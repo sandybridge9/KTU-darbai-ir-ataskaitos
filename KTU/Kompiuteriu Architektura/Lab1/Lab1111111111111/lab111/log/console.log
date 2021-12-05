@@ -1,0 +1,68 @@
+# Design Explorer: Shortcut to "W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\lab111.aws" design added.
+SetActiveLib -work
+comp -include "$dsn\src\top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work lab111 -2002  $dsn/src/reg.vhd $dsn/src/rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\reg.vhd
+# Compile Entity "REG"
+# Compile Architecture "rtl" of Entity "REG"
+# File: W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\rom.vhd
+# Compile Entity "ROM"
+# Compile Architecture "rtl" of Entity "ROM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location W:\TADAS\Komp architekt\Lab1\Lab1111111111111\lab111\src\wave.asdb
+#  00:09, 2017 m. lapkrièio 14 d., antradienis
+#  Simulation has been initialized
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'W:/TADAS/Komp architekt/Lab1/Lab1111111111111/lab111/src/wave.asdb'.
+run @600ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 600 ns

@@ -1,0 +1,29 @@
+clock_procesas : process begin
+		clock <= '0';
+		wait for 8 ns;
+		clock <= '1';
+		wait for 8 ns;
+	end process;
+	
+	Data_procesas : process begin
+		Data <= "000001";
+		wait;
+	end process;
+	
+	clear_procesas : process begin
+		clear <= '0';
+		wait for 16 ns;
+		clear <= '1';
+		wait;
+	end process;
+	
+	load_procesas : process begin
+		load <= '0';
+		wait for 100 ns;
+		load <= '1';
+		wait for 18 ns;
+		load <= '0';
+		wait;
+	end process;
+	
+	end process;

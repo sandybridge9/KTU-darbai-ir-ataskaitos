@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+DviejuPakopuTrigerioTestas2=.\DviejuPakopuTrigerioTestas2\DviejuPakopuTrigerioTestas2.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+DviejuPakopuTrigerioTestas2=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\..\impl1\StatinisTrigeris.vhd=-1
+/..\..\..\impl1\DviejuPakopuTrigeris.vhd=-1
+TestBench/dviejupakoputrigeris_TB.vhd=-1
+TestBench/dviejupakoputrigeris_TB_runtest.do=-1
+[Files.Data]
+.\..\..\impl1\StatinisTrigeris.vhd=VHDL Source Code
+.\..\..\impl1\DviejuPakopuTrigeris.vhd=VHDL Source Code
+.\src\TestBench\dviejupakoputrigeris_TB.vhd=VHDL Test Bench
+.\src\TestBench\dviejupakoputrigeris_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=dviejupakoputrigeris|SCHEMATIC|0 dviejupakoputrigeris_tb|testbench_for_dviejupakoputrigeris|1 
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,6 @@
+﻿24fa;ranka;15;
+25fb;koja;14;
+26fc;sirdis;75;
+27fd;petis;18;
+28fe;nosis;142;
+29ff;akis;155;

@@ -1,0 +1,14 @@
+[COMPILESTATUS|.\..\impl1\StatinisTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+
+[COMPILESTATUS|.\..\impl1\DviejuPakopuTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\DviejuPakopuTrigerioTestas.adf|]
+Path=/DVIEJUPAKOPUTRIGERIS
+

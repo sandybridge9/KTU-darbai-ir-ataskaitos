@@ -1,0 +1,6 @@
+#!/bin/sh
+for v
+do
+	echo $v
+	shift
+done

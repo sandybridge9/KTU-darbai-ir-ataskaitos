@@ -1,0 +1,34 @@
+[COMPILESTATUS|.\..\..\impl1\StatinisTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+
+[COMPILESTATUS|.\..\..\impl1\DviejuPakopuTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+
+[COMPILESTATUS|.\src\TestBench\statinistrigeris_TB.vhd]
+FileTimeLow=30596444
+Status=Compiled
+
+[COMPILESTATUS|.\src\TestBench\statinistrigeris_TB_runtest.do]
+FileTimeLow=30596443
+Status=Modified
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\ssssss.adf|]
+Path=/statinistrigeris_tb
+
+[Gui config]
+RunFor=100 ns
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\TestBench/statinistrigeris_TB.vhd|]
+CurrentLine=70
+CurrentColumn=19
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8AAAAB6AAAAgAcAACQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+

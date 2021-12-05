@@ -1,0 +1,1 @@
+@W: MT529 :"d:\ktu\skaitmeninelogika\vhdl(lab4)\skaitiklis.vhdl":33:3:33:4|Found inferred clock counter|clock which controls 6 sequential elements including Qreg[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

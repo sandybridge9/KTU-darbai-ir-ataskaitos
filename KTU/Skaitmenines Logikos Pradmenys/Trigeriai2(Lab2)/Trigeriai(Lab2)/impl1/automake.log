@@ -1,0 +1,4 @@
+
+sch2vhd -FPGA -lib LatticeXP2 -i D:/KTU/SkaitmenineLogika/Trigeriai/StatinisTrigeris.sch -o D:/KTU/SkaitmenineLogika/Trigeriai/impl1/StatinisTrigeris.vhd -gui -msgset D:/KTU/SkaitmenineLogika/Trigeriai/promote.xml
+
+sch2vhd -FPGA -lib LatticeXP2 -i D:/KTU/SkaitmenineLogika/Trigeriai/DviejuPakopuTrigeris.sch -o D:/KTU/SkaitmenineLogika/Trigeriai/impl1/DviejuPakopuTrigeris.vhd -gui -msgset D:/KTU/SkaitmenineLogika/Trigeriai/promote.xml

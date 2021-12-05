@@ -1,0 +1,9 @@
+#!/bin/sh
+num=1;
+one=1;
+for v
+do
+	echo $num $v
+	num=$((num + one))
+	
+done 

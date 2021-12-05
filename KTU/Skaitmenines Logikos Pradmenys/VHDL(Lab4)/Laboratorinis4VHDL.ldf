@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Laboratorinis4VHDL" device="LFXP2-5E-6TN144C" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="spec_register"/>
+        <Source name="KombinacineSchema.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="decoder"/>
+        </Source>
+        <Source name="SpecializuotasRegistras.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="spec_register"/>
+        </Source>
+        <Source name="KombinacinesSchemosTestas/KombinacinesSchemosTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="KombinacinesTestas/KombinacinesTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Laboratorinis4VHDL.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="SpecializuotasTestas/SpecializuotasTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="SpecializuotoRegistroTestas/SpecializuotoRegistroTestas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Laboratorinis4VHDL1.sty"/>
+</BaliProject>

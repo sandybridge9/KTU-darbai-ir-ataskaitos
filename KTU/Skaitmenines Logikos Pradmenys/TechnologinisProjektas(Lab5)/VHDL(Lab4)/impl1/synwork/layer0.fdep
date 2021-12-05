@@ -1,0 +1,31 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\tadlau\\Desktop\\VHDL(Lab4)\\impl1\\synwork\\Laboratorinis4VHDL_impl1_comp.srs|-top|work.spec_register|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\bin64\\c_vhdl.exe":1467759490
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\location.map":1467948194
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\std.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\std1164.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\numeric.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\arith.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1467759088
+#CUR:"C:\\lscc\\diamond\\3.8_x64\\cae_library\\synthesis\\vhdl\\xp2.vhd":1376992808
+#CUR:"C:\\Users\\tadlau\\Desktop\\VHDL(Lab4)\\SpecializuotasRegistras.vhdl":1496055327
+0 "C:\lscc\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd" vhdl
+1 "C:\Users\tadlau\Desktop\VHDL(Lab4)\SpecializuotasRegistras.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+
+# Design Unit to File Association
+arch work spec_register beh2 1
+module work spec_register 1
+
+
+# Configuration files used

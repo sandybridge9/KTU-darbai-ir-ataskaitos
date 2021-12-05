@@ -1,0 +1,17 @@
+Klausimai:
+1 paskaita: 
+	tiesiog parašyt - DONE
+
+2 paskaita:
+		EL. LAIŠKU
+	1. Kuri proceso dalis yra kritiškiausia?
+	2. Kas gautųsi jeigu tokį procesą taikytume formaliai mažų sistemų kūrimui? (čia ne klausimo dalis - programų sistemų 	inžinerijos procesą apie kurį mes kalbam)
+
+3 paskaita:
+	1. Kokios Jūsų nuomone yra pagrindinės iteracijų priežastys, nurodykite bent 3 prioriteto tvarka.
+	2. Iš kokių fazių susideda apibendrintojo proceso ciklas.
+4 paskaita: 
+	1. Kaip ir kokiais tikslais reikia optimizuoti PA sistemą
+	2. Iš ko susideda PAM ir kokia šių dalių paskirtis.
+5 paskaita:
+	2.1.3 1) iš ko susideda analitinis modelis?

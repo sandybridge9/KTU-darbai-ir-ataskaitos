@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/4/2017 17:47:05
+#Project Location: D:/Tadas/KTU/SkaitmenineLogika/LabNr1; Project name: Laboratorinis1
+prj_project new -name "Laboratorinis1" -impl "lab1" -dev LFXP2-5E-6TN144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/Schema1.sch"
+prj_run Translate -impl lab1
+prj_src add "D:/Tadas/KTU/SkaitmenineLogika/LabNr1/testavimas/testavimas.spf"
+#Stop recording: 3/4/2017 20:58:55

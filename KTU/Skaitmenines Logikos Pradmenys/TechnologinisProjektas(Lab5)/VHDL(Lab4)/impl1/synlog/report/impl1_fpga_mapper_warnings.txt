@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock counter|clock with period 3.82ns. Please declare a user-defined clock on object "p:clock"

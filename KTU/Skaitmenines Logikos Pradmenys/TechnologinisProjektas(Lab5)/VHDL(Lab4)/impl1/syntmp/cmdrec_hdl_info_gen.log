@@ -1,0 +1,8 @@
+C:\lscc\diamond\3.8_x64\synpbase\bin64\c_vhdl.exe  -osyn  "C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\synwork\Laboratorinis4VHDL_impl1_hdl_.srs"  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\tadlau\Desktop\VHDL(Lab4)\SpecializuotasRegistras.vhdl  -log  "C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\syntax.log"  -fileorder  "C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\syntmp\hdlorder.tcl" 
+rc:0 success:1 runtime:0
+file:C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\synwork\Laboratorinis4VHDL_impl1_hdl_.srs|io:o|time:0|size:0|exec:0
+file:C:\lscc\diamond\3.8_x64\cae_library\synthesis\vhdl\xp2.vhd|io:i|time:1376992808|size:146261|exec:0
+file:C:\Users\tadlau\Desktop\VHDL(Lab4)\SpecializuotasRegistras.vhdl|io:i|time:1496055327|size:846|exec:0
+file:C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\syntax.log|io:o|time:1496055328|size:1027|exec:0
+file:C:\lscc\diamond\3.8_x64\synpbase\bin\c_vhdl.exe|io:i|time:1467759276|size:2381824|exec:1
+file:C:\lscc\diamond\3.8_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1467759490|size:3259392|exec:1

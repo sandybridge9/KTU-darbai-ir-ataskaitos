@@ -1,0 +1,11 @@
+Rezultatai: 
+
+Draugu pozicijos (x,y): 
+Draugo nr. 1 pozicija - (0,0)
+Draugo nr. 1 pozicija - (0,2)
+Draugo nr. 1 pozicija - (0,4)
+
+Artimiausia susitikimo vieta: (2,2)
+Pasirinkta picerija: (4,2)
+
+Duomenys: 

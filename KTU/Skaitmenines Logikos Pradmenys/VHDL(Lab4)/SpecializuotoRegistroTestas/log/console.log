@@ -1,0 +1,321 @@
+# Design Explorer: Shortcut to "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\SpecializuotoRegistroTestas.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile D:/KTU/SkaitmenineLogika/VHDL(Lab4)/KombinacineSchema.vhdl
+# Adding file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\KombinacineSchema.vhdl ... Done
+addfile D:/KTU/SkaitmenineLogika/VHDL(Lab4)/SpecializuotasRegistras.vhdl
+# Adding file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl ... Done
+vlib D:/KTU/SkaitmenineLogika/VHDL(Lab4)/SpecializuotoRegistroTestas/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work D:/KTU/SkaitmenineLogika/VHDL(Lab4)/KombinacineSchema.vhdl
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\KombinacineSchema.vhdl
+# Compile Entity "decoder"
+# Compile Architecture "beh" of Entity "decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+vcom -dbg -work work D:/KTU/SkaitmenineLogika/VHDL(Lab4)/SpecializuotasRegistras.vhdl
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+entity spec_register
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r spec_register -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6059 kB (elbread=1280 elab2=4628 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\wave.asdb
+#  1:07 AM, Wednesday, May 24, 2017
+#  Simulation has been initialized
+add wave *
+# 7 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'D:/KTU/SkaitmenineLogika/VHDL(Lab4)/SpecializuotoRegistroTestas/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 15): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (91, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 15): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (91, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 15): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (91, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 15): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (90, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 16): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (88, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 8): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (88, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 8): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (88, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 8): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (75, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (60, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (60, 6): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Error: COMP96_0209: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (75, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_spec_register 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6056 kB (elbread=1280 elab2=4627 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\wave.asdb
+#  1:22 AM, Wednesday, May 24, 2017
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/KTU/SkaitmenineLogika/VHDL(Lab4)/SpecializuotoRegistroTestas/src/wave.asdb'.
+wave 
+wave -noreg clk
+wave -noreg rst
+wave -noreg A0
+wave -noreg A1
+wave -noreg Data
+wave -noreg Q
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\spec_register_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_spec_register 
+# 6 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/KTU/SkaitmenineLogika/VHDL(Lab4)/SpecializuotoRegistroTestas/src/wave.asdb'.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 17): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do
+SetActiveLib -work
+comp -include "D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotasRegistras.vhdl" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\..\SpecializuotasRegistras.vhdl
+# Compile Entity "spec_register"
+# Compile Architecture "beh" of Entity "spec_register"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\spec_register_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB.vhd
+# Compile Entity "spec_register_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "spec_register_tb"
+# Error: COMP96_0019: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: SpecializuotoRegistroTestas/src/TestBench/spec_register_TB.vhd : (31, 21): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_spec_register"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do line 3
+# Error: Cannot run D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SpecializuotoRegistroTestas\src\TestBench\spec_register_TB_runtest.do

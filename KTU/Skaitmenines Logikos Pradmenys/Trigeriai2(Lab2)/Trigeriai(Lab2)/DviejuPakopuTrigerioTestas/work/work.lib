@@ -1,0 +1,36 @@
+timestamp=1495382777535
+
+[~A]
+ModifyID=2
+Version=74
+
+[dviejupakoputrigeris]
+A/schematic=A/SCHEMATIC 21|./../../impl1/DviejuPakopuTrigeris.vhd|16|1*3400
+BinI32/schematic=3*358
+I=0*3360
+I/schematic=I/SCHEMATIC 0*5412
+M=11|0|vd0|1495382777503|./../../impl1/DviejuPakopuTrigeris.vhd|0*2917*0x76d08eafe8e181d1d03f41d306b60109887e7f02|0*3248*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1495382777505|./../../impl1/DviejuPakopuTrigeris.vhd|0*3609*0x4bd5831c908bb0c65caabce7e7b702fca776800a|0*5287*0x9065d32a2e40e13794b29a2731812845
+R=./../../impl1/DviejuPakopuTrigeris.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c9b546faa1229dc804b9b92032273645cb81709f44a74360d8b7ca30f73dc591b49affdf193a0c599b6bd14626972fb6
+Version/schematic=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7fc8f98cde06f404e82ec535f479ada0d
+
+[statinistrigeris]
+A/schematic=A/SCHEMATIC 21|./../../impl1/StatinisTrigeris.vhd|20|1*0
+BinI32/schematic=3*0
+I=0*717
+I/schematic=I/SCHEMATIC 0*2306
+M=11|0|vd0|1495382777269|./../../impl1/StatinisTrigeris.vhd|0*220*0x968feb757718dd297ccd9ec8ec6115e7daf70621|0*613*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1495382777271|./../../impl1/StatinisTrigeris.vhd|0*962*0x08a942b635491057e904ca37f9ad1ff6e4bde147|0*2189*0x9065d32a2e40e13794b29a2731812845
+R=./../../impl1/StatinisTrigeris.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|69de4f625242b4e941d0207199c32990820439317233de6239b2182ba29948f4da9b39f5e585c0a059ccaebcb683bb3c
+Version/schematic=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d783c00bdcee71426dcbbabe00cc4311a0
+
+[~MFT]
+0=7|0work.mgf|5412|0
+1=1|1work.mgf|3400|0
+3=1|3work.mgf|358|0
+
+[~U]
+dviejupakoputrigeris=DVIEJUPAKOPUTRIGERIS 11|0*2701|
+statinistrigeris=STATINISTRIGERIS 11|0*0|

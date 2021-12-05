@@ -1,0 +1,21 @@
+string glob = "Hay";
+string glob = "Hay";
+number numbeo = 112;
+time();
+print(glob, "hamlet ", glob, " eats ", 4, " rice every day", glob);
+number ham = 19;
+number sam = 12;
+if(ham > sam){
+	ham + 10;
+}elif(ham < sam){
+	glob = "smith";
+}
+void hemp(string s, number ham, string glob, number sam){
+	number samm = ham;
+	number samm = ham;
+	number hill = 13;
+	v = hill;
+	v = hill;
+} 
+hemp(glob, ham, glob, sam);
+hemp(glob, ham, glob, sam);

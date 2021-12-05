@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "iveskite savo prisijungimo varda "
+read vardas
+echo "iveskite savo vartotojo numeri "
+read numeris
+echo "iveskite savo grupe "
+read grupe
+echo "vardas: " $vardas " numeris: " $numeris " grupe: " $grupe
+

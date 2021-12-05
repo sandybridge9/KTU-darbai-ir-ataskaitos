@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(3): Semantic error in &quot;LOCATE COMP &quot;clock&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>clock</Dynamic>
+            <Navigation>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(4): Semantic error in &quot;LOCATE COMP &quot;clear&quot; SITE &quot;53&quot; ;&quot;: </Dynamic>
+            <Dynamic>clear</Dynamic>
+            <Navigation>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(5): Semantic error in &quot;LOCATE COMP &quot;load&quot; SITE &quot;55&quot; ;&quot;: </Dynamic>
+            <Dynamic>load</Dynamic>
+            <Navigation>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(18): Semantic error in &quot;LOCATE COMP &quot;p&quot; SITE &quot;45&quot; ;&quot;: </Dynamic>
+            <Dynamic>p</Dynamic>
+            <Navigation>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf(25): Semantic error in &quot;IOBUF PORT &quot;clear&quot; PULLMODE=UP IO_TYPE=LVCMOS25 ;&quot;: </Dynamic>
+            <Dynamic>clear</Dynamic>
+            <Navigation>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>1104062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>5 semantic errors</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>rst_c</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001230</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/tadlau/Desktop/VHDL(Lab4)/Laboratorinis4VHDL.lpf</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clk_c loads=4 clock_loads=4</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clk_c loads=4 clock_loads=4</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\tadlau\desktop\vhdl(lab4)\specializuotasregistras.vhdl&quot;:23:2:23:3|Found inferred clock spec_register|clk which controls 7 sequential elements including Qreg[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\tadlau\desktop\vhdl(lab4)\specializuotasregistras.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock spec_register|clk which controls 7 sequential elements including Qreg[6:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock spec_register|clk with period 2.36ns. Please declare a user-defined clock on object &quot;p:clk&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock spec_register|clk with period 2.36ns. Please declare a user-defined clock on object &quot;p:clk&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

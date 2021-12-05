@@ -1,0 +1,14 @@
+@P:  Worst Slack : -0.416
+@P:  spec_register|clk - Estimated Frequency : 360.5 MHz
+@P:  spec_register|clk - Requested Frequency : 424.1 MHz
+@P:  spec_register|clk - Estimated Period : 2.774
+@P:  spec_register|clk - Requested Period : 2.358
+@P:  spec_register|clk - Slack : -0.416
+@P:  Worst Slack(min analysis) : 0.559
+@P:  spec_register|clk - Estimated Frequency(min analysis) : 360.5 MHz
+@P:  spec_register|clk - Requested Frequency(min analysis) : 424.1 MHz
+@P:  spec_register|clk - Estimated Period(min analysis) : 2.774
+@P:  spec_register|clk - Requested Period(min analysis) : 2.358
+@P:  spec_register|clk - Slack(min analysis) : -0.416
+@P:  Total Area : 22.0
+@P:  CPU Time : 0h:00m:01s

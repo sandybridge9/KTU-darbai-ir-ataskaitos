@@ -1,0 +1,145 @@
+CREATE TABLE CLIENT
+(
+	personal_id integer (11) NOT NULL,
+	name varchar (22) NOT NULL,
+	surname varchar (22) NOT NULL,
+	birth_date date NOT NULL,
+	phone varchar (22) NOT NULL,
+	email varchar (22) NOT NULL,
+	PRIMARY KEY(personal_id)
+);
+
+CREATE TABLE PUBLISHER
+(
+	name varchar (22) NOT NULL,
+	id_PUBLISHER integer (11) NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE TOWN
+(
+	name varchar (22) NOT NULL,
+	id_TOWN integer (11) NOT NULL,
+	PRIMARY KEY(id_TOWN)
+);
+
+CREATE TABLE DEVELOPER
+(
+	name varchar (22) NOT NULL,
+	id_DEVELOPER integer (11) NOT NULL,
+	fk_PUBLISHERid_PUBLISHER integer (11) NOT NULL,
+	PRIMARY KEY(id_DEVELOPER),
+	FOREIGN KEY(fk_PUBLISHERid_PUBLISHER) REFERENCES PUBLISHER (id_PUBLISHER)
+);
+
+CREATE TABLE SHOP
+(
+	name varchar (22) NOT NULL,
+	adress varchar (22) NOT NULL,
+	phone varchar (22) NOT NULL,
+	email varchar (22) NOT NULL,
+	id_SHOP integer (11) NOT NULL,
+	fk_TOWNid_TOWN integer (11) NOT NULL,
+	PRIMARY KEY(id_SHOP),
+	FOREIGN KEY(fk_TOWNid_TOWN) REFERENCES TOWN (id_TOWN)
+);
+
+CREATE TABLE EMPLOYEE
+(
+	workerid integer (11) NOT NULL,
+	name varchar (22) NOT NULL,
+	surname varchar (22) NOT NULL,
+	fk_SHOPid_SHOP integer (11) NOT NULL,
+	PRIMARY KEY(workerid),
+	FOREIGN KEY(fk_SHOPid_SHOP) REFERENCES SHOP (id_SHOP)
+);
+
+CREATE TABLE PURCHASE
+(
+	number integer (22) NOT NULL AUTO_INCREMENT,
+	total_cost integer (22) NOT NULL,
+	date date NOT NULL,
+	place varchar (22) NOT NULL,
+	item_count integer (22) NOT NULL,
+	fk_SHOPid_SHOP integer (11) NOT NULL,
+	fk_CLIENTpersonal_id integer (11) NOT NULL,
+	fk_EMPLOYEEworker_id integer (11) NOT NULL,
+	PRIMARY KEY(number),
+	FOREIGN KEY(fk_SHOPid_SHOP) REFERENCES SHOP (id_SHOP),
+	FOREIGN KEY(fk_CLIENTpersonal_id) REFERENCES CLIENT (personal_id),
+	FOREIGN KEY(fk_EMPLOYEEworker_id) REFERENCES EMPLOYEE (workerid)
+);
+
+CREATE TABLE GAME
+(
+	id integer (11) NOT NULL,
+	title varchar (22) NOT NULL,
+	release_date date NOT NULL,
+	platform varchar (22) NOT NULL,
+	genre varchar (22) NOT NULL,
+	input_device varchar (22) NOT NULL,
+	display_type varchar (22) NOT NULL,
+	cpu_requirement varchar (22) NOT NULL,
+	gpu_requirement varchar (22) NOT NULL,
+	ram_requirement varchar (22) NOT NULL,
+	os_requirement varchar (22) NOT NULL,
+	cost integer NOT NULL,
+	mod_availability varchar (22) NOT NULL,
+	dlc_availability varchar (22) NOT NULL,
+	multiplayer_availability varchar (22) NOT NULL,
+	current_state varchar (22) NOT NULL,
+	current_version varchar (22) NOT NULL,
+	age_rating varchar (22) NOT NULL,
+	critic_evaluation varchar (22) NOT NULL,
+	fk_PURCHASEnumber integer (11) NOT NULL,
+	fk_DEVELOPERid_DEVELOPER integer (11) NOT NULL,
+	PRIMARY KEY(id, title),
+	FOREIGN KEY(fk_PURCHASEnumber) REFERENCES PURCHASE (number),
+	FOREIGN KEY(fk_DEVELOPERid_DEVELOPER) REFERENCES DEVELOPER (id_DEVELOPER)
+);
+
+CREATE TABLE RECEIPT
+(
+	number integer (22) NOT NULL,
+	date date NOT NULL,
+	cost integer (22) NOT NULL,
+	fk_PURCHASEnumber integer (11) NOT NULL,
+	PRIMARY KEY(number),
+	FOREIGN KEY(fk_PURCHASEnumber) REFERENCES PURCHASE (number)
+);
+
+CREATE TABLE DLC
+(
+	id integer (11) NOT NULL,
+	title varchar (22) NOT NULL,
+	release_date date NOT NULL,
+	cost integer (22) NOT NULL,
+	age_rating varchar (22) NOT NULL,
+	critics_evaluation varchar (22) NOT NULL,
+	fk_PURCHASEnumber integer (11) NOT NULL,
+	fk_GAMEid integer (11) NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(fk_PURCHASEnumber) REFERENCES PURCHASE (number),
+	FOREIGN KEY(fk_GAMEid) REFERENCES GAME (id)
+);
+
+CREATE TABLE PAYMENT
+(
+	datee date NOT NULL,
+	sum integer (22) NOT NULL,
+	id_PAYMENT integer (11) NOT NULL,
+	fk_CLIENTpersonal_id integer (11) NOT NULL,
+	fk_RECEIPTnumber integer (11) (22) NOT NULL,
+	PRIMARY KEY(id_PAYMENT),
+	FOREIGN KEY(fk_CLIENTpersonal_id) REFERENCES CLIENT (personal_id),
+	FOREIGN KEY(fk_RECEIPTnumber) REFERENCES RECEIPT (number)
+);
+
+CREATE TABLE TAXES
+(
+	cost integer (22) NOT NULL,
+	quantity integer (22) NOT NULL,
+	id_TAXES integer (11) NOT NULL,
+	fk_RECEIPTnumber integer (11) NOT NULL,
+	PRIMARY KEY(id_TAXES),
+	FOREIGN KEY(fk_RECEIPTnumber) REFERENCES RECEIPT (number)
+);

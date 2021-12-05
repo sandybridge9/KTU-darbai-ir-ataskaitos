@@ -1,0 +1,18 @@
+#!/bin/sh
+read input
+if test "$input" -eq "Q"
+then
+	exit
+elif test "$input" -eq "q"
+then 
+	exit
+elif test "$input" -eq "Sekmadienis"
+then
+	echo "Sunday"
+elif test "$input" -eq "Sestadienis"
+then
+	echo "Saturday"
+elif test "$input" -eq "Penktadienis"
+then
+	echo "Friday"
+fi

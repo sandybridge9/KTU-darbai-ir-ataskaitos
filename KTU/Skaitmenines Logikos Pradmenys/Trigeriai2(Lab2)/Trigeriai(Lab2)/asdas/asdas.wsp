@@ -1,0 +1,34 @@
+[COMPILESTATUS|.\..\impl1\DviejuPakopuTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+
+[COMPILESTATUS|.\..\impl1\StatinisTrigeris.vhd]
+FileTimeLow=30593612
+Status=Compiled
+
+[COMPILESTATUS|.\src\TestBench\dviejupakoputrigeris_TB.vhd]
+FileTimeLow=30596448
+Status=Compiled
+
+[COMPILESTATUS|.\src\TestBench\dviejupakoputrigeris_TB_runtest.do]
+FileTimeLow=30596448
+Status=Modified
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\asdas.adf|]
+Path=/dviejupakoputrigeris_tb
+
+[Gui config]
+RunFor=100 ns
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\TestBench/dviejupakoputrigeris_TB.vhd|]
+CurrentLine=85
+CurrentColumn=15
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8AAAAB6AAAAgAcAACQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+

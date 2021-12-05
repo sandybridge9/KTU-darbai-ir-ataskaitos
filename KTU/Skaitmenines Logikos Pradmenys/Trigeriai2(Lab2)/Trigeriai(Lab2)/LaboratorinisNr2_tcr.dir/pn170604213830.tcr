@@ -1,0 +1,8 @@
+#Start recording tcl command: 6/4/2017 19:40:42
+#Project Location: D:/KTU/SkaitmenineLogika/Trigeriai(Lab2); Project name: LaboratorinisNr2
+prj_project open "D:/KTU/SkaitmenineLogika/Trigeriai(Lab2)/LaboratorinisNr2.ldf"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai(Lab2)/StatinioTrigerioTestas/ssssss/ssssss.spf"
+prj_src remove "D:/KTU/SkaitmenineLogika/Trigeriai(Lab2)/StatinisTrigeris.sch"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai(Lab2)/StatinisTrigeris.sch"
+prj_src add "D:/KTU/SkaitmenineLogika/Trigeriai(Lab2)/asdas/asdas.spf"
+#Stop recording: 6/4/2017 21:38:30

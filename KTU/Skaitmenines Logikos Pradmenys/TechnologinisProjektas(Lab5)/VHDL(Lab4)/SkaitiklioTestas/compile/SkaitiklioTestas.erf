@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:\KTU\SkaitmenineLogika\VHDL(Lab4)\SkaitiklioTestas\src\TestBench\counter_TB.vhd" 
+MESSAGE "Compile Entity "counter_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "counter_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_counter"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

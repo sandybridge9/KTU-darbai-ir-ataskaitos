@@ -1,0 +1,407 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1498R, Built Jul  5 2016 10:30:31
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.03L-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.77ns		  22 /         7
+   2		0h:00m:00s		    -0.77ns		  22 /         7
+   3		0h:00m:00s		    -0.77ns		  22 /         7
+
+   4		0h:00m:00s		    -0.77ns		  22 /         7
+
+
+   5		0h:00m:00s		    -0.77ns		  22 /         7
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 7 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   7          Qreg[0]        
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 140MB)
+
+Writing Analyst data base C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\synwork\Laboratorinis4VHDL_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\tadlau\Desktop\VHDL(Lab4)\impl1\Laboratorinis4VHDL_impl1.edi
+L-2016.03L-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+@W: MT420 |Found inferred clock spec_register|clk with period 2.36ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon May 29 13:55:32 2017
+#
+
+
+Top view:               spec_register
+Requested Frequency:    424.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.416
+
+                      Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock        Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------
+spec_register|clk     424.1 MHz     360.5 MHz     2.358         2.774         -0.416     inferred     Autoconstr_clkgroup_0
+===========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------
+Starting           Ending             |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------
+spec_register|clk  spec_register|clk  |  2.358       -0.416  |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: spec_register|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                              Arrival           
+Instance     Reference             Type        Pin     Net         Time        Slack 
+             Clock                                                                   
+-------------------------------------------------------------------------------------
+Qreg[2]      spec_register|clk     FD1S3DX     Q       Qreg[2]     0.994       -0.416
+Qreg[3]      spec_register|clk     FD1S3DX     Q       Qreg[3]     0.994       -0.416
+Qreg[4]      spec_register|clk     FD1S3DX     Q       Qreg[4]     0.994       -0.416
+Qreg[5]      spec_register|clk     FD1S3DX     Q       Qreg[5]     0.994       -0.416
+Qreg[0]      spec_register|clk     FD1S3DX     Q       Qreg[0]     0.929       -0.351
+Qreg[1]      spec_register|clk     FD1S3DX     Q       Qreg[1]     0.929       -0.351
+Qreg[6]      spec_register|clk     FD1S3DX     Q       Qreg[6]     1.067       0.265 
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                  Required           
+Instance     Reference             Type        Pin     Net             Time         Slack 
+             Clock                                                                        
+------------------------------------------------------------------------------------------
+Qreg[3]      spec_register|clk     FD1S3DX     D       i13_mux_2_i     1.747        -0.416
+Qreg[4]      spec_register|clk     FD1S3DX     D       i13_mux_1_i     1.747        -0.416
+Qreg[5]      spec_register|clk     FD1S3DX     D       i13_mux_0_i     1.747        -0.416
+Qreg[6]      spec_register|clk     FD1S3DX     D       i13_mux_i       1.747        -0.416
+Qreg[1]      spec_register|clk     FD1S3DX     D       i13_mux_4_i     1.747        -0.351
+Qreg[2]      spec_register|clk     FD1S3DX     D       i13_mux_3_i     1.747        -0.351
+Qreg[0]      spec_register|clk     FD1S3DX     D       N_35_i          1.747        0.265 
+==========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.358
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.747
+
+    - Propagation time:                      2.163
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.416
+
+    Number of logic level(s):                2
+    Starting point:                          Qreg[2] / Q
+    Ending point:                            Qreg[3] / D
+    The start point is clocked by            spec_register|clk [rising] on pin CK
+    The end   point is clocked by            spec_register|clk [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+Qreg[2]            FD1S3DX      Q        Out     0.994     0.994       -         
+Qreg[2]            Net          -        -       -         -           3         
+Qreg_RNO_0[3]      ORCALUT4     D        In      0.000     0.994       -         
+Qreg_RNO_0[3]      ORCALUT4     Z        Out     0.754     1.749       -         
+N_9                Net          -        -       -         -           1         
+Qreg_RNO[3]        ORCALUT4     C        In      0.000     1.749       -         
+Qreg_RNO[3]        ORCALUT4     Z        Out     0.415     2.163       -         
+i13_mux_2_i        Net          -        -       -         -           1         
+Qreg[3]            FD1S3DX      D        In      0.000     2.163       -         
+=================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      2.358
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.747
+
+    - Propagation time:                      2.163
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.416
+
+    Number of logic level(s):                2
+    Starting point:                          Qreg[3] / Q
+    Ending point:                            Qreg[4] / D
+    The start point is clocked by            spec_register|clk [rising] on pin CK
+    The end   point is clocked by            spec_register|clk [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+Qreg[3]            FD1S3DX      Q        Out     0.994     0.994       -         
+Qreg[3]            Net          -        -       -         -           3         
+Qreg_RNO_0[4]      ORCALUT4     D        In      0.000     0.994       -         
+Qreg_RNO_0[4]      ORCALUT4     Z        Out     0.754     1.749       -         
+N_42_0             Net          -        -       -         -           1         
+Qreg_RNO[4]        ORCALUT4     C        In      0.000     1.749       -         
+Qreg_RNO[4]        ORCALUT4     Z        Out     0.415     2.163       -         
+i13_mux_1_i        Net          -        -       -         -           1         
+Qreg[4]            FD1S3DX      D        In      0.000     2.163       -         
+=================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      2.358
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.747
+
+    - Propagation time:                      2.163
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.416
+
+    Number of logic level(s):                2
+    Starting point:                          Qreg[4] / Q
+    Ending point:                            Qreg[5] / D
+    The start point is clocked by            spec_register|clk [rising] on pin CK
+    The end   point is clocked by            spec_register|clk [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+Qreg[4]            FD1S3DX      Q        Out     0.994     0.994       -         
+Qreg[4]            Net          -        -       -         -           3         
+Qreg_RNO_0[5]      ORCALUT4     D        In      0.000     0.994       -         
+Qreg_RNO_0[5]      ORCALUT4     Z        Out     0.754     1.749       -         
+N_43_0_0_1         Net          -        -       -         -           1         
+Qreg_RNO[5]        ORCALUT4     C        In      0.000     1.749       -         
+Qreg_RNO[5]        ORCALUT4     Z        Out     0.415     2.163       -         
+i13_mux_0_i        Net          -        -       -         -           1         
+Qreg[5]            FD1S3DX      D        In      0.000     2.163       -         
+=================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      2.358
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.747
+
+    - Propagation time:                      2.163
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.416
+
+    Number of logic level(s):                2
+    Starting point:                          Qreg[5] / Q
+    Ending point:                            Qreg[6] / D
+    The start point is clocked by            spec_register|clk [rising] on pin CK
+    The end   point is clocked by            spec_register|clk [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+Qreg[5]            FD1S3DX      Q        Out     0.994     0.994       -         
+Qreg[5]            Net          -        -       -         -           3         
+Qreg_RNO_0[6]      ORCALUT4     D        In      0.000     0.994       -         
+Qreg_RNO_0[6]      ORCALUT4     Z        Out     0.754     1.749       -         
+N_44_0             Net          -        -       -         -           1         
+Qreg_RNO[6]        ORCALUT4     C        In      0.000     1.749       -         
+Qreg_RNO[6]        ORCALUT4     Z        Out     0.415     2.163       -         
+i13_mux_i          Net          -        -       -         -           1         
+Qreg[6]            FD1S3DX      D        In      0.000     2.163       -         
+=================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      2.358
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.747
+
+    - Propagation time:                      2.098
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.351
+
+    Number of logic level(s):                2
+    Starting point:                          Qreg[0] / Q
+    Ending point:                            Qreg[1] / D
+    The start point is clocked by            spec_register|clk [rising] on pin CK
+    The end   point is clocked by            spec_register|clk [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+Qreg[0]            FD1S3DX      Q        Out     0.929     0.929       -         
+Qreg[0]            Net          -        -       -         -           2         
+Qreg_RNO_0[1]      ORCALUT4     D        In      0.000     0.929       -         
+Qreg_RNO_0[1]      ORCALUT4     Z        Out     0.754     1.684       -         
+Qreg_RNO_0[1]      Net          -        -       -         -           1         
+Qreg_RNO[1]        ORCALUT4     C        In      0.000     1.684       -         
+Qreg_RNO[1]        ORCALUT4     Z        Out     0.415     2.098       -         
+i13_mux_4_i        Net          -        -       -         -           1         
+Qreg[1]            FD1S3DX      D        In      0.000     2.098       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-6
+
+Register bits: 7 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       18
+
+
+Details:
+FD1S3DX:        7
+GSR:            1
+IB:             11
+INV:            8
+OB:             7
+ORCALUT4:       14
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon May 29 13:55:32 2017
+
+###########################################################]

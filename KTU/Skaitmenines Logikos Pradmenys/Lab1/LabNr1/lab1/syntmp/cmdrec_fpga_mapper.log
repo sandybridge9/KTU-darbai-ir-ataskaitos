@@ -1,0 +1,11 @@
+D:\Program Files (x86)\diamond\3.8_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1   -part LFXP2_5E  -package TN144C  -grade -6    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synlog\report\Laboratorinis1_lab1_fpga_mapper.xml  -top_level_module  SCHEMA2  -flow mapping  -multisrs  -oedif  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Laboratorinis1_lab1.edi   -autoconstraint  -freq 1.000   D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synwork\Laboratorinis1_lab1_prem.srd  -devicelib  "D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\lucent\xp2.v"  -devicelib  "D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v"  -ologparam  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\syntmp\Laboratorinis1_lab1.plg  -osyn  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Laboratorinis1_lab1.srm  -prjdir  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\  -prjname  proj_1  -log  D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synlog\Laboratorinis1_lab1_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Laboratorinis1_lab1.edi|io:o|time:1488747891|size:11145|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synwork\Laboratorinis1_lab1_prem.srd|io:i|time:1488747890|size:3800|exec:0
+file:D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\lucent\xp2.v|io:i|time:1467759226|size:89401|exec:0
+file:D:\Program Files (x86)\diamond\3.8_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1467759226|size:40584|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\syntmp\Laboratorinis1_lab1.plg|io:o|time:1488747891|size:595|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\Laboratorinis1_lab1.srm|io:o|time:1488747891|size:5742|exec:0
+file:D:\Tadas\KTU\SkaitmenineLogika\LabNr1\lab1\synlog\Laboratorinis1_lab1_fpga_mapper.srr|io:o|time:1488747891|size:12701|exec:0
+file:D:\Program Files (x86)\diamond\3.8_x64\synpbase\bin\m_gen_lattice.exe|io:i|time:1467760026|size:18704384|exec:1
+file:D:\Program Files (x86)\diamond\3.8_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1467761562|size:22412800|exec:1

@@ -1,0 +1,24 @@
+timestamp=1495572586906
+
+[~A]
+ModifyID=1
+Version=74
+
+[decoder]
+A/beh=21|./../../KombinacineSchema.vhdl|12|1*0
+BinI32/beh=3*0
+I=0*522
+I/beh=0*1338
+M=11|0|vd0|1495572586812|./../../KombinacineSchema.vhdl|0*194*0xd3380f0f827da36a1055b45347450de9403f40c7|0*431*0x23b75c12e3e89f2ef000564498faa8c2
+M/beh=21|0|vd0|1495572586828|./../../KombinacineSchema.vhdl|0*721*0xaa63f03877c54b310dd15d36c5915836dddfe627|0*1240*0x9065d32a2e40e13794b29a2731812845
+R=./../../KombinacineSchema.vhdl|4
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5b5fade5c44e27adecc486171142a1d226527262ddaa47cb266f3a3c4d9b973a51d745a7ab5ec207de641f6d0d1cca8d
+Version/beh=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9feb3f2c68cdf0164b911d6478c8f692c9259074d6e4ee5b14d830e5122d072a
+
+[~MFT]
+0=7|0work.mgf|1338|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+decoder=11|0*0|

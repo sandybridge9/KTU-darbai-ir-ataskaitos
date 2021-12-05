@@ -1,0 +1,4 @@
+@W: CG296 :"C:\Users\tadlau\Desktop\VHDL(Lab4)\Skaitiklis.vhdl":31:2:31:8|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\tadlau\Desktop\VHDL(Lab4)\Skaitiklis.vhdl":36:13:36:16|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\tadlau\Desktop\VHDL(Lab4)\Skaitiklis.vhdl":35:11:35:14|Referenced variable load is not in sensitivity list
+

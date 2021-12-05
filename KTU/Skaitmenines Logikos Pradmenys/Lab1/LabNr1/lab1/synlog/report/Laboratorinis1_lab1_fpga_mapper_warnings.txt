@@ -1,0 +1,3 @@
+@W: MT246 :"d:\tadas\ktu\skaitmeninelogika\labnr1\lab1\schema2.vhd":116:3:116:5|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\tadas\ktu\skaitmeninelogika\labnr1\lab1\schema2.vhd":114:3:114:5|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\tadas\ktu\skaitmeninelogika\labnr1\lab1\schema2.vhd":112:3:112:4|Blackbox AND4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

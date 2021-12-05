@@ -1,0 +1,11 @@
+Ilgiausi žodžiai mažėjimo tvarka: Zodis nr.1 "skyriklius" kartojasi 1 kartu.
+Zodis nr.2 "pozicijoje" kartojasi 1 kartu.
+Zodis nr.3 "fiksuotoje" kartojasi 1 kartu.
+Zodis nr.4 "kiekvienas" kartojasi 1 kartu.
+Zodis nr.5 "kiekvienos" kartojasi 1 kartu.
+Zodis nr.6 "sulygiuoti" kartojasi 1 kartu.
+Zodis nr.7 "neviršija" kartojasi 1 kartu.
+Zodis nr.8 "netaikome" kartojasi 1 kartu.
+Zodis nr.9 "taisyklės" kartojasi 1 kartu.
+Zodis nr.10 "taisykles" kartojasi 1 kartu.
+                                                    

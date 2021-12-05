@@ -1,0 +1,3 @@
+.\..\impl1\PostumioRegistras.vhd
+.\..\impl1\SpecializuotasRegistras.vhd
+.\src\TestBench\specializuotasregistras_TB.vhd
